@@ -1,0 +1,384 @@
+Message-ID: <2053789016.9.1749287548066@1a51b688857d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_8_1303841507.1749287548066"
+
+------=_Part_8_1303841507.1749287548066
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>User Stories for Media Upload</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>User Stories for Media Upload</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"UserStoriesforMediaUpload-UserStory1:UploadImages"><stron=
+g>User Story 1: Upload Images</strong></h3>
+<p><strong>As a </strong>user, <strong>I want to </strong>upload files (JPE=
+G, PNG, GIF, PDF, DOC), <strong>so that</strong> I can share graphics, desi=
+gns, written content, reports, or proposals.</p>
+<h4 id=3D"UserStoriesforMediaUpload-AcceptanceCriteria:"><strong>Acceptance=
+ Criteria:</strong></h4>
+<p><strong>File Upload (General):</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I drag and drop a valid file (image or document) =
+into the upload area, <strong>when</strong> the upload is complete, <strong=
+>then</strong> the file should be listed with its name displayed and, for d=
+ocuments, a description field editable.</p></li>
+</ul>
+<p><strong>Image Preview:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I upload an image file (JPEG, PNG, GIF), <strong>=
+when</strong> the upload is complete, <strong>then</strong> the image shoul=
+d be displayed in the upload preview.</p></li>
+</ul>
+<p><strong>Error Handling:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I upload an unsupported file format, <strong>when=
+</strong> I attempt to upload, <strong>then</strong> I should see an error =
+message indicating the supported formats (JPEG, PNG, GIF, PDF, DOC).</p></l=
+i>
+</ul>
+<hr>
+<h3 id=3D"UserStoriesforMediaUpload-UserStory2:UploadVideosorAddYouTubeLink=
+s"><strong><span class=3D"inline-comment-marker" data-ref=3D"6d43d8b0-2ed8-=
+4bb8-8076-2c21bf80e789">User Story 2: Upload Videos or Add YouTube Links</s=
+pan></strong></h3>
+<p><strong>As a</strong> user,<strong> I want to</strong> upload video file=
+s (MP4, AVI) or add a YouTube link, <strong>so that</strong> I can showcase=
+ animations, video edits, or presentations.</p>
+<h4 id=3D"UserStoriesforMediaUpload-AcceptanceCriteria:.1"><strong>Acceptan=
+ce Criteria:</strong></h4>
+<p style=3D"text-align: center;"><strong>Upload Video File:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I drag and drop a valid video file into the uploa=
+d area, <strong>when</strong> the upload is complete, <strong>then</strong>=
+ the video should be available for preview as a short clip or thumbnail.</p=
+></li>
+<li>
+<p><strong>Given</strong> I upload a file exceeding the size limit (e.g., 1=
+0MB), <strong>when</strong> I attempt to upload, <strong>then</strong> I sh=
+ould see an error message indicating the size restriction.</p></li>
+<li>
+<p><strong>Given</strong> I upload an unsupported video file format, <stron=
+g>when</strong> I attempt to upload, <strong>then</strong> I should see an =
+error message indicating the supported formats.</p></li>
+</ul>
+<p style=3D"text-align: center;"><strong>Add YouTube Link:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I paste a valid YouTube link into the provided in=
+put field, <strong>when</strong> I click the "Add Link" button,<br><strong>=
+then</strong> the video should be embedded or displayed as a thumbnail prev=
+iew.</p></li>
+<li>
+<p><strong>Given</strong> I paste an invalid or broken YouTube link, <stron=
+g>when</strong> I click the "Add Link" button, <strong>then</strong> I shou=
+ld see an error message indicating that the link is not valid.</p></li>
+</ul>
+<hr>
+<h3 id=3D"UserStoriesforMediaUpload-UserStory3:ManageUploadedFiles"><strong=
+>User Story 3: Manage Uploaded Files</strong></h3>
+<p><strong>As a</strong> user, <strong>I want to</strong> manage uploaded f=
+iles, <strong>so that</strong> I can delete, add or edit them as needed.</p=
+>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I have uploaded files, <strong>when</strong> I cl=
+ick the delete icon next to a file, <strong>then</strong> the file should b=
+e removed from the upload list.</p></li>
+<li>
+<p><strong>Given</strong> the maximum upload limit (e.g., 5 files) has been=
+ reached, <strong>when</strong> I try to upload additional files, <strong>t=
+hen</strong> I should see an error message indicating the limit.</p></li>
+</ul>
+<hr>
+<h3 id=3D"UserStoriesforMediaUpload-UserStory4:AddMetadatatoMedia"><strong>=
+User Story 4: Add Metadata to Media</strong></h3>
+<p><strong>As a</strong> user, <strong>I want to</strong> add metadata such=
+ as a title and description to uploaded files, <strong>so that</strong> I c=
+an provide context for each file.</p>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I upload a file, <strong>when</strong> the upload=
+ is complete, <strong>then</strong> I should see fields to add or edit the =
+title and description for the file.</p></li>
+<li>
+<p><strong>Given</strong> I leave the metadata fields blank, <strong>when</=
+strong> I save the upload, <strong>then</strong> I should see a default tit=
+le generated from the file name.</p></li>
+</ul>
+<hr>
+<h3 id=3D"UserStoriesforMediaUpload-UserStory5:MediaandProfileManagementfor=
+Admins"><strong><span class=3D"inline-comment-marker" data-ref=3D"ba62ee0c-=
+2edb-462d-a100-c123fc5bc864">User Story 5: Media and Profile Management for=
+ Admins</span></strong></h3>
+<p><strong>As an</strong> admin, <strong>I want to</strong> monitor and man=
+age uploaded media files and user profiles, <strong>so that</strong> I can =
+ensure compliance and organization across the platform.</p>
+<h4 id=3D"UserStoriesforMediaUpload-AcceptanceCriteria:.2"><strong>Acceptan=
+ce Criteria:</strong></h4>
+<p><strong>Media Management:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I am on the admin dashboard, <strong>when</strong=
+> I view the media management section, <strong>then</strong> I should see a=
+ list of all uploaded files with their metadata and upload details (e.g., u=
+ser, date, file type).</p></li>
+<li>
+<p><strong>Given</strong> I identify inappropriate or irrelevant files, <st=
+rong>when</strong> I click the "Delete" button for a file, <strong>then</st=
+rong> it should be removed from the system.</p></li>
+<li>
+<p><strong>Given</strong> I want to adjust upload limits or allowed file ty=
+pes, <strong>when</strong> I access the settings panel, <strong>then</stron=
+g> I should be able to update these parameters and save the changes.</p></l=
+i>
+<li>
+<p><strong>Given</strong> a file has missing or incorrect metadata, <strong=
+>when</strong> I click the "Edit" button for that file, <strong>then</stron=
+g> I should be able to update the metadata and save the changes.</p></li>
+</ul>
+<p><strong>User Profile Moderation:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I am on the admin dashboard, <strong>when</strong=
+> I access a user profile, <strong>then</strong> I should have editing perm=
+issions (e.g., update profile details, deactivate account).</p></li>
+<li>
+<p><strong>Given</strong> a user reports an inappropriate profile, <strong>=
+when</strong> I view the reported profiles section, <strong>then</strong> I=
+ should see a list of flagged profiles with reasons for reporting.</p></li>
+<li>
+<p><strong>Given</strong> I review a reported profile and find it inappropr=
+iate, <strong>when</strong> I click the "Moderate" button, <strong>then</st=
+rong> I should have options to warn the user, edit the profile, or deactiva=
+te the account.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_8_1303841507.1749287548066--

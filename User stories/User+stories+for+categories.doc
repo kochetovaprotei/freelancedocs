@@ -1,0 +1,956 @@
+Message-ID: <1403359034.15.1749287438841@fff7d9a6e7bb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_366820265.1749287438841"
+
+------=_Part_14_366820265.1749287438841
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>User stories for categories</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>User stories for categories</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"Userstoriesforcategories-Categories">
+<style>[data-colorid=3Dmyyk2ei8bw]{color:#97a0af} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dmyyk2ei8bw]{color:#505968}[data-colorid=3Dxsgy4yafxo]{c=
+olor:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dxsgy4yafxo]{colo=
+r:#505968}[data-colorid=3Di78u6glv8e]{color:#97a0af} html[data-color-mode=
+=3Ddark] [data-colorid=3Di78u6glv8e]{color:#505968}[data-colorid=3Dtiae3n6l=
+0f]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dtiae3n6l0f]=
+{color:#00214c}[data-colorid=3Ddimw0ip8c8]{color:#97a0af} html[data-color-m=
+ode=3Ddark] [data-colorid=3Ddimw0ip8c8]{color:#505968}[data-colorid=3Democl=
+5f44l]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Democl5f4=
+4l]{color:#505968}[data-colorid=3Dtve1uvpnw6]{color:#97a0af} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dtve1uvpnw6]{color:#505968}[data-colorid=3Djo=
+ss2phrte]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Djoss2=
+phrte]{color:#505968}[data-colorid=3Da50i0cu5wk]{color:#97a0af} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Da50i0cu5wk]{color:#505968}[data-colorid=
+=3Ds1foc2san7]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3D=
+s1foc2san7]{color:#505968}[data-colorid=3Dxl5984jd85]{color:#b3d4ff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dxl5984jd85]{color:#00214c}[data-colo=
+rid=3Dwcwpx8xnb8]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=
+=3Dwcwpx8xnb8]{color:#00214c}[data-colorid=3Dh9vo2p1o9i]{color:#b3d4ff} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dh9vo2p1o9i]{color:#00214c}[data-c=
+olorid=3Demohvwlu2d]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Demohvwlu2d]{color:#505968}[data-colorid=3Dhwyzk2tb90]{color:#97a0af} =
+html[data-color-mode=3Ddark] [data-colorid=3Dhwyzk2tb90]{color:#505968}[dat=
+a-colorid=3Ds8m53qn7e3]{color:#97a0af} html[data-color-mode=3Ddark] [data-c=
+olorid=3Ds8m53qn7e3]{color:#505968}[data-colorid=3Dcfbq1wdpij]{color:#97a0a=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dcfbq1wdpij]{color:#505968}[=
+data-colorid=3Dbpcjkh5s1c]{color:#97a0af} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dbpcjkh5s1c]{color:#505968}[data-colorid=3Dorh910l1r2]{color:#97=
+a0af} html[data-color-mode=3Ddark] [data-colorid=3Dorh910l1r2]{color:#50596=
+8}[data-colorid=3Dhjc2v242s9]{color:#97a0af} html[data-color-mode=3Ddark] [=
+data-colorid=3Dhjc2v242s9]{color:#505968}[data-colorid=3Dlz14f8qeag]{color:=
+#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dlz14f8qeag]{color:#50=
+5968}[data-colorid=3Dsq5n8cm5jn]{color:#97a0af} html[data-color-mode=3Ddark=
+] [data-colorid=3Dsq5n8cm5jn]{color:#505968}[data-colorid=3Dfjyeoev46d]{col=
+or:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dfjyeoev46d]{color:=
+#505968}[data-colorid=3Dbj0xu0zppk]{color:#97a0af} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dbj0xu0zppk]{color:#505968}[data-colorid=3Dn1lpbca9co]{=
+color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dn1lpbca9co]{col=
+or:#505968}[data-colorid=3Dlja7p7o8vn]{color:#97a0af} html[data-color-mode=
+=3Ddark] [data-colorid=3Dlja7p7o8vn]{color:#505968}[data-colorid=3Dcx2ioiaj=
+mp]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dcx2ioiajmp]=
+{color:#505968}[data-colorid=3Drm910ma0iv]{color:#97a0af} html[data-color-m=
+ode=3Ddark] [data-colorid=3Drm910ma0iv]{color:#505968}[data-colorid=3Da211v=
+31lsh]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Da211v31l=
+sh]{color:#505968}[data-colorid=3Dwd30p8ufez]{color:#97a0af} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dwd30p8ufez]{color:#505968}[data-colorid=3Dlv=
+nlk9ks7p]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dlvnlk=
+9ks7p]{color:#505968}[data-colorid=3Dg8avog0jdd]{color:#97a0af} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dg8avog0jdd]{color:#505968}[data-colorid=
+=3Djwyxa9wb4p]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3D=
+jwyxa9wb4p]{color:#505968}[data-colorid=3Dz9dkjrlk64]{color:#97a0af} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dz9dkjrlk64]{color:#505968}[data-colo=
+rid=3Dt8k9m3il0i]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=
+=3Dt8k9m3il0i]{color:#505968}[data-colorid=3Dpt53a9bgsj]{color:#97a0af} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dpt53a9bgsj]{color:#505968}[data-c=
+olorid=3Dfpvhryypgz]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dfpvhryypgz]{color:#505968}[data-colorid=3Dd95citq9db]{color:#97a0af} =
+html[data-color-mode=3Ddark] [data-colorid=3Dd95citq9db]{color:#505968}[dat=
+a-colorid=3Dvv494sgguf]{color:#97a0af} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dvv494sgguf]{color:#505968}[data-colorid=3Dfyvku33vja]{color:#97a0a=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dfyvku33vja]{color:#505968}[=
+data-colorid=3Du8o15b2bdz]{color:#97a0af} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Du8o15b2bdz]{color:#505968}[data-colorid=3Dopcghygzw0]{color:#97=
+a0af} html[data-color-mode=3Ddark] [data-colorid=3Dopcghygzw0]{color:#50596=
+8}[data-colorid=3Dszhn0mf83b]{color:#97a0af} html[data-color-mode=3Ddark] [=
+data-colorid=3Dszhn0mf83b]{color:#505968}[data-colorid=3Ddrrbsu1tks]{color:=
+#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Ddrrbsu1tks]{color:#50=
+5968}[data-colorid=3Dnrzh98e2iu]{color:#97a0af} html[data-color-mode=3Ddark=
+] [data-colorid=3Dnrzh98e2iu]{color:#505968}[data-colorid=3Dvnbsibqih1]{col=
+or:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dvnbsibqih1]{color:=
+#505968}[data-colorid=3Dp5s94pgow9]{color:#97a0af} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dp5s94pgow9]{color:#505968}[data-colorid=3Dbr35o3v70c]{=
+color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dbr35o3v70c]{col=
+or:#505968}[data-colorid=3Db3l90plwgt]{color:#97a0af} html[data-color-mode=
+=3Ddark] [data-colorid=3Db3l90plwgt]{color:#505968}[data-colorid=3Dll49w3xt=
+bn]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dll49w3xtbn]=
+{color:#505968}[data-colorid=3Dx1wq9rij8o]{color:#97a0af} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dx1wq9rij8o]{color:#505968}[data-colorid=3Doeq64=
+mhg1h]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Doeq64mhg=
+1h]{color:#505968}[data-colorid=3Duecyd8yho3]{color:#97a0af} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Duecyd8yho3]{color:#505968}[data-colorid=3Djx=
+8uq26cyt]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Djx8uq=
+26cyt]{color:#00214c}[data-colorid=3Ds6jd8b731l]{color:#97a0af} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Ds6jd8b731l]{color:#505968}[data-colorid=
+=3Dhmtq7l12xc]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3D=
+hmtq7l12xc]{color:#00214c}[data-colorid=3Djr69dyn0if]{color:#b3d4ff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Djr69dyn0if]{color:#00214c}[data-colo=
+rid=3Dj3pa3pbyqy]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=
+=3Dj3pa3pbyqy]{color:#505968}[data-colorid=3Dmarmyxvjpe]{color:#97a0af} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dmarmyxvjpe]{color:#505968}[data-c=
+olorid=3Dhl8vke20w4]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dhl8vke20w4]{color:#505968}[data-colorid=3Dxopfe1lvdc]{color:#97a0af} =
+html[data-color-mode=3Ddark] [data-colorid=3Dxopfe1lvdc]{color:#505968}[dat=
+a-colorid=3Drj3i090ni2]{color:#97a0af} html[data-color-mode=3Ddark] [data-c=
+olorid=3Drj3i090ni2]{color:#505968}[data-colorid=3Dgt6mwaxjg4]{color:#97a0a=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dgt6mwaxjg4]{color:#505968}[=
+data-colorid=3Dzcfeeuid7x]{color:#97a0af} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dzcfeeuid7x]{color:#505968}[data-colorid=3Ds6j18ii7pt]{color:#97=
+a0af} html[data-color-mode=3Ddark] [data-colorid=3Ds6j18ii7pt]{color:#50596=
+8}[data-colorid=3Dybiz9ukgma]{color:#97a0af} html[data-color-mode=3Ddark] [=
+data-colorid=3Dybiz9ukgma]{color:#505968}[data-colorid=3Dyw7svlfaqc]{color:=
+#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dyw7svlfaqc]{color:#50=
+5968}[data-colorid=3Dvxrnquyvwf]{color:#b3d4ff} html[data-color-mode=3Ddark=
+] [data-colorid=3Dvxrnquyvwf]{color:#00214c}[data-colorid=3Ddrb9vhpvtl]{col=
+or:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Ddrb9vhpvtl]{color:=
+#505968}[data-colorid=3Dfwy8pc5g47]{color:#97a0af} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dfwy8pc5g47]{color:#505968}[data-colorid=3Dt3l3uq4ihp]{=
+color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dt3l3uq4ihp]{col=
+or:#505968}[data-colorid=3Dpyvzfb2l8i]{color:#97a0af} html[data-color-mode=
+=3Ddark] [data-colorid=3Dpyvzfb2l8i]{color:#505968}[data-colorid=3Dkhsahsnn=
+yh]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dkhsahsnnyh]=
+{color:#505968}[data-colorid=3Dejc7g9pb93]{color:#b3d4ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dejc7g9pb93]{color:#00214c}[data-colorid=3Djb9dr=
+qoub1]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Djb9drqou=
+b1]{color:#505968}[data-colorid=3Dpbsfaywu09]{color:#b3d4ff} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dpbsfaywu09]{color:#00214c}[data-colorid=3Dte=
+xxsp7a0u]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dtexxs=
+p7a0u]{color:#505968}[data-colorid=3Dcyl8lsxeaj]{color:#97a0af} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dcyl8lsxeaj]{color:#505968}[data-colorid=
+=3Djxj1l827eg]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3D=
+jxj1l827eg]{color:#505968}[data-colorid=3Dvdx3fg6v9t]{color:#97a0af} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dvdx3fg6v9t]{color:#505968}[data-colo=
+rid=3Dzbc6v3urga]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=
+=3Dzbc6v3urga]{color:#505968}[data-colorid=3Djy5x8j5ao6]{color:#97a0af} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Djy5x8j5ao6]{color:#505968}[data-c=
+olorid=3Dyb3at8v894]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dyb3at8v894]{color:#505968}[data-colorid=3Dz4g64uypq0]{color:#97a0af} =
+html[data-color-mode=3Ddark] [data-colorid=3Dz4g64uypq0]{color:#505968}[dat=
+a-colorid=3Dcyj7b4er44]{color:#97a0af} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dcyj7b4er44]{color:#505968}[data-colorid=3Droiaxpkqmt]{color:#97a0a=
+f} html[data-color-mode=3Ddark] [data-colorid=3Droiaxpkqmt]{color:#505968}[=
+data-colorid=3Drmx7cij9ij]{color:#b3d4ff} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Drmx7cij9ij]{color:#00214c}[data-colorid=3Dou7pkgihhc]{color:#97=
+a0af} html[data-color-mode=3Ddark] [data-colorid=3Dou7pkgihhc]{color:#50596=
+8}[data-colorid=3Dnwc6m0w0sp]{color:#97a0af} html[data-color-mode=3Ddark] [=
+data-colorid=3Dnwc6m0w0sp]{color:#505968}[data-colorid=3Dutnca4agjd]{color:=
+#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dutnca4agjd]{color:#00=
+214c}[data-colorid=3Dgmv3wgavj6]{color:#97a0af} html[data-color-mode=3Ddark=
+] [data-colorid=3Dgmv3wgavj6]{color:#505968}[data-colorid=3Djzgzwbm2ka]{col=
+or:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Djzgzwbm2ka]{color:=
+#505968}[data-colorid=3Dnibu19apyg]{color:#97a0af} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dnibu19apyg]{color:#505968}[data-colorid=3Da6drtpxxun]{=
+color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Da6drtpxxun]{col=
+or:#00214c}[data-colorid=3Ds7dkdyqt4x]{color:#97a0af} html[data-color-mode=
+=3Ddark] [data-colorid=3Ds7dkdyqt4x]{color:#505968}[data-colorid=3Drmyblmgi=
+ve]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Drmyblmgive]=
+{color:#00214c}[data-colorid=3Dgl3l3tno1i]{color:#97a0af} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dgl3l3tno1i]{color:#505968}[data-colorid=3Dbwxjr=
+nxkn2]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dbwxjrnxk=
+n2]{color:#505968}[data-colorid=3Dqxqcp4b96b]{color:#97a0af} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dqxqcp4b96b]{color:#505968}[data-colorid=3Dcf=
+7trjyo6f]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dcf7tr=
+jyo6f]{color:#505968}[data-colorid=3Dncwb9zoo9b]{color:#97a0af} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dncwb9zoo9b]{color:#505968}[data-colorid=
+=3Dzqjmlkfjmc]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3D=
+zqjmlkfjmc]{color:#505968}[data-colorid=3Dqz7mj11heb]{color:#97a0af} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dqz7mj11heb]{color:#505968}[data-colo=
+rid=3Dk5y7u0kftc]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=
+=3Dk5y7u0kftc]{color:#505968}[data-colorid=3Duhjcab7fuk]{color:#97a0af} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Duhjcab7fuk]{color:#505968}[data-c=
+olorid=3Dqb0ohhv3sj]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dqb0ohhv3sj]{color:#505968}[data-colorid=3Dg0au2rr9cd]{color:#97a0af} =
+html[data-color-mode=3Ddark] [data-colorid=3Dg0au2rr9cd]{color:#505968}[dat=
+a-colorid=3Dx1u4vh1ecn]{color:#97a0af} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dx1u4vh1ecn]{color:#505968}[data-colorid=3Dpziwxtdbee]{color:#97a0a=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dpziwxtdbee]{color:#505968}[=
+data-colorid=3Dbxhy6t7ou7]{color:#97a0af} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dbxhy6t7ou7]{color:#505968}[data-colorid=3Dzjk74hswjp]{color:#97=
+a0af} html[data-color-mode=3Ddark] [data-colorid=3Dzjk74hswjp]{color:#50596=
+8}[data-colorid=3Dw4q1kdciju]{color:#97a0af} html[data-color-mode=3Ddark] [=
+data-colorid=3Dw4q1kdciju]{color:#505968}[data-colorid=3Dxiic7lh71f]{color:=
+#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dxiic7lh71f]{color:#50=
+5968}[data-colorid=3Dyh0slgdg4u]{color:#97a0af} html[data-color-mode=3Ddark=
+] [data-colorid=3Dyh0slgdg4u]{color:#505968}[data-colorid=3Dg9i036rr4a]{col=
+or:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dg9i036rr4a]{color:=
+#505968}[data-colorid=3Ddubsfov8un]{color:#97a0af} html[data-color-mode=3Dd=
+ark] [data-colorid=3Ddubsfov8un]{color:#505968}[data-colorid=3Dg6td8cb3jx]{=
+color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dg6td8cb3jx]{col=
+or:#505968}[data-colorid=3Dy5jomw594k]{color:#97a0af} html[data-color-mode=
+=3Ddark] [data-colorid=3Dy5jomw594k]{color:#505968}[data-colorid=3Dr3l30rvi=
+im]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dr3l30rviim]=
+{color:#00214c}[data-colorid=3Dw5388cf23g]{color:#97a0af} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dw5388cf23g]{color:#505968}[data-colorid=3Dzuuth=
+f9g3l]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dzuuthf9g=
+3l]{color:#505968}[data-colorid=3Di5aq688h60]{color:#97a0af} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Di5aq688h60]{color:#505968}[data-colorid=3Dob=
+hdkjrk6y]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dobhdk=
+jrk6y]{color:#00214c}[data-colorid=3Dqgy4un4l25]{color:#97a0af} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dqgy4un4l25]{color:#505968}[data-colorid=
+=3Dpxeymt3s3o]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3D=
+pxeymt3s3o]{color:#505968}[data-colorid=3Dh1rtiilsk9]{color:#b3d4ff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dh1rtiilsk9]{color:#00214c}[data-colo=
+rid=3Dlrjhuohp35]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=
+=3Dlrjhuohp35]{color:#505968}[data-colorid=3Dt53b9fnzgk]{color:#97a0af} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dt53b9fnzgk]{color:#505968}[data-c=
+olorid=3Dtnkmidu3ea]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dtnkmidu3ea]{color:#505968}[data-colorid=3Dq1qftenesm]{color:#97a0af} =
+html[data-color-mode=3Ddark] [data-colorid=3Dq1qftenesm]{color:#505968}[dat=
+a-colorid=3Dxai5glp67m]{color:#97a0af} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dxai5glp67m]{color:#505968}[data-colorid=3Dlukk99xe16]{color:#97a0a=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dlukk99xe16]{color:#505968}[=
+data-colorid=3Dz3naeup1kh]{color:#97a0af} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dz3naeup1kh]{color:#505968}[data-colorid=3Ddhz1f8g80m]{color:#97=
+a0af} html[data-color-mode=3Ddark] [data-colorid=3Ddhz1f8g80m]{color:#50596=
+8}[data-colorid=3Df9crmstx1o]{color:#97a0af} html[data-color-mode=3Ddark] [=
+data-colorid=3Df9crmstx1o]{color:#505968}[data-colorid=3De84rdoqxsa]{color:=
+#97a0af} html[data-color-mode=3Ddark] [data-colorid=3De84rdoqxsa]{color:#50=
+5968}[data-colorid=3Dfeqp53yegr]{color:#97a0af} html[data-color-mode=3Ddark=
+] [data-colorid=3Dfeqp53yegr]{color:#505968}[data-colorid=3Djlujixegep]{col=
+or:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Djlujixegep]{color:=
+#505968}[data-colorid=3Dubk37rvgpu]{color:#97a0af} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dubk37rvgpu]{color:#505968}[data-colorid=3Dumw9m0wdd8]{=
+color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dumw9m0wdd8]{col=
+or:#505968}[data-colorid=3Dvqtuiagncd]{color:#b3d4ff} html[data-color-mode=
+=3Ddark] [data-colorid=3Dvqtuiagncd]{color:#00214c}[data-colorid=3Dm5oeay2m=
+1n]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dm5oeay2m1n]=
+{color:#505968}[data-colorid=3Dq4e5q88pxp]{color:#b3d4ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dq4e5q88pxp]{color:#00214c}[data-colorid=3Diq7ld=
+z9roo]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Diq7ldz9r=
+oo]{color:#505968}[data-colorid=3Ddanfc47tx1]{color:#97a0af} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Ddanfc47tx1]{color:#505968}[data-colorid=3Dh4=
+t8ni9nsd]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dh4t8n=
+i9nsd]{color:#505968}[data-colorid=3Dqsxnmdaz8r]{color:#97a0af} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dqsxnmdaz8r]{color:#505968}[data-colorid=
+=3Dhpovmqamsw]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3D=
+hpovmqamsw]{color:#505968}[data-colorid=3Dqg7jzed0gg]{color:#97a0af} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dqg7jzed0gg]{color:#505968}[data-colo=
+rid=3Dbpvybooe9y]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=
+=3Dbpvybooe9y]{color:#00214c}[data-colorid=3Del08v2hd2g]{color:#97a0af} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Del08v2hd2g]{color:#505968}[data-c=
+olorid=3Dpgbf377xaq]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dpgbf377xaq]{color:#505968}[data-colorid=3Dxdfxvcoqbx]{color:#97a0af} =
+html[data-color-mode=3Ddark] [data-colorid=3Dxdfxvcoqbx]{color:#505968}[dat=
+a-colorid=3Dm4ru8k8pip]{color:#97a0af} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dm4ru8k8pip]{color:#505968}[data-colorid=3Dn02g65o3i5]{color:#b3d4f=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dn02g65o3i5]{color:#00214c}[=
+data-colorid=3Dinjvhxl9oy]{color:#97a0af} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dinjvhxl9oy]{color:#505968}[data-colorid=3Dv4mt1wmxr5]{color:#97=
+a0af} html[data-color-mode=3Ddark] [data-colorid=3Dv4mt1wmxr5]{color:#50596=
+8}[data-colorid=3Da3jpgl1p3k]{color:#b3d4ff} html[data-color-mode=3Ddark] [=
+data-colorid=3Da3jpgl1p3k]{color:#00214c}[data-colorid=3Dyqe4v6c3b9]{color:=
+#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dyqe4v6c3b9]{color:#50=
+5968}[data-colorid=3Djdykdcd8lg]{color:#97a0af} html[data-color-mode=3Ddark=
+] [data-colorid=3Djdykdcd8lg]{color:#505968}[data-colorid=3Dmb60rrvey3]{col=
+or:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dmb60rrvey3]{color:=
+#505968}[data-colorid=3Dlb303y3vod]{color:#97a0af} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dlb303y3vod]{color:#505968}[data-colorid=3Docrrrkli2l]{=
+color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Docrrrkli2l]{col=
+or:#505968}[data-colorid=3Dsxjwtd33uk]{color:#b3d4ff} html[data-color-mode=
+=3Ddark] [data-colorid=3Dsxjwtd33uk]{color:#00214c}[data-colorid=3Dn4m7sgew=
+d8]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dn4m7sgewd8]=
+{color:#505968}[data-colorid=3Dqgsdtzyhlr]{color:#b3d4ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dqgsdtzyhlr]{color:#00214c}[data-colorid=3Dg83px=
+x5089]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dg83pxx50=
+89]{color:#505968}[data-colorid=3Dvteh9ke2ex]{color:#97a0af} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dvteh9ke2ex]{color:#505968}[data-colorid=3Dit=
+9owzvdci]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dit9ow=
+zvdci]{color:#505968}[data-colorid=3Doz42sfgfql]{color:#b3d4ff} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Doz42sfgfql]{color:#00214c}[data-colorid=
+=3Di0ag58qfd8]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3D=
+i0ag58qfd8]{color:#505968}[data-colorid=3Dvzf2w7ot9h]{color:#b3d4ff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dvzf2w7ot9h]{color:#00214c}[data-colo=
+rid=3Deyduwa52js]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=
+=3Deyduwa52js]{color:#00214c}[data-colorid=3Dwidmyh4fci]{color:#97a0af} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dwidmyh4fci]{color:#505968}[data-c=
+olorid=3Dempy9osne2]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dempy9osne2]{color:#505968}[data-colorid=3Dht89l4pakg]{color:#b3d4ff} =
+html[data-color-mode=3Ddark] [data-colorid=3Dht89l4pakg]{color:#00214c}[dat=
+a-colorid=3Dm5x3e94d12]{color:#97a0af} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dm5x3e94d12]{color:#505968}[data-colorid=3Dlgy8udbgav]{color:#97a0a=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dlgy8udbgav]{color:#505968}<=
+/style><strong>Categories</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Feature</strong>: Create Category</p>
+<ul>
+<li>
+<p><strong>User Story</strong>: <strong>As an admin, </strong>I want to <st=
+rong>create a new category</strong> so that I can organize content more eff=
+ectively.&nbsp;</p></li>
+</ul></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><strong>Acceptance Criteria:</strong></p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> I am<strong> logge=
+d in</strong> as an admin, when I navigate to the <strong>category manageme=
+nt page</strong>, then I should see an option to <strong>create a new categ=
+ory.</strong> I should see a form to enter the category name and descriptio=
+n.&nbsp;</p>
+<p style=3D"margin-left: 60.0px;"><strong>When</strong> I<strong> fill out<=
+/strong> the form with valid inputs and click the <strong>"Create"</strong>=
+ button, then the <strong>new category</strong> should be added to the list=
+ of categories.&nbsp;</p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> I attempt to creat=
+e a category with a duplicate name, <strong>when</strong> I click "Create",=
+ <strong>then</strong> I should see an error message indicating the name is=
+ already in use.&nbsp;</p>
+<p>2. <strong>Feature</strong>: Create Subcategory</p>
+<ul>
+<li>
+<p><strong>User Story</strong>: <strong>As an admin</strong>, I want to cre=
+ate subcategories within a main category <strong>so that</strong> I can fur=
+ther organize and structure my items or tasks.</p></li>
+</ul>
+<p style=3D"margin-left: 30.0px;"><strong>Acceptance Criteria:</strong></p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> I am on the catego=
+ry management page, <strong>when</strong> I select a main category and clic=
+k "Add Subcategory," <strong>then</strong> I should see a form to enter the=
+ subcategory name and description.</p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> I fill out the for=
+m with valid inputs, <strong>when</strong> I click "Save," <strong>then</st=
+rong> the new subcategory should be created and visible under the main cate=
+gory in the category list.</p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> I attempt to creat=
+e a subcategory with a duplicate name within the same main category, <stron=
+g>when</strong> I click "Save," <strong>then</strong> I should see an error=
+ message indicating the name is already in use.</p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> there are subcateg=
+ories created under a main category, <strong>when</strong> I view the categ=
+ory list, <strong>then</strong> I should see the subcategories nested under=
+ their respective main categories.</p>
+<ol start=3D"3">
+<li>
+<p><strong>Feature</strong>: Create Minor Category</p>
+<ul>
+<li>
+<p><strong>User Story</strong>: <strong>As an admin</strong>, I want to cre=
+ate minor categories within subcategories <strong>so that</strong> I can ad=
+d further levels of organization.</p></li>
+</ul></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><strong>Acceptance Criteria:</strong></p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> I am on the catego=
+ry management page, <strong>when</strong> I select a subcategory and click =
+"Add Minor Category," <strong>then</strong> I should see a form to enter th=
+e minor category name and description.</p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> I fill out the for=
+m with valid inputs, <strong>when</strong> I click "Save," <strong>then</st=
+rong> the new minor category should be created and visible under the select=
+ed subcategory.</p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> I attempt to creat=
+e a minor category with a duplicate name within the same subcategory, <stro=
+ng>when</strong> I click "Save," <strong>then</strong> I should see an erro=
+r message indicating the name is already in use.</p>
+<p style=3D"margin-left: 60.0px;"><strong>Given</strong> there are minor ca=
+tegories created under a subcategory, <strong>when</strong> I view the cate=
+gory list, <strong>then</strong> I should see the minor categories nested u=
+nder their respective subcategories.</p>
+<ol start=3D"4">
+<li>
+<p><strong>Feature</strong>: Edit Category</p>
+<ul>
+<li>
+<p><strong>User Story</strong>: <strong>As an admin,</strong> I want to edi=
+t an existing category so that I can update its details to keep the informa=
+tion current.&nbsp;</p></li>
+</ul></li>
+</ol>
+<p style=3D"margin-left: 60.0px;"><strong>Acceptance Criteria:</strong></p>
+<p style=3D"margin-left: 90.0px;"><strong>Given</strong> I am on the catego=
+ry management page, <strong>when</strong> I click on an existing category, =
+then I should see an option to <strong>edit</strong> the category.&nbsp;</p=
+>
+<p style=3D"margin-left: 90.0px;"><strong>When </strong>I <strong>change</s=
+trong> the category name or description and click <strong>"Save"</strong>, =
+then the updated information should be reflected in the category list.&nbsp=
+;</p>
+<p style=3D"margin-left: 90.0px;"><strong>Given</strong> I leave the name f=
+ield blank or input invalid data, <strong>when</strong> I click "Save," <st=
+rong>then</strong> I should see an error message specifying the required co=
+rrections.&nbsp;</p>
+<p></p>
+<ol start=3D"5">
+<li>
+<p><strong>Feature</strong>: Delete Category</p>
+<ul>
+<li>
+<p><strong>User Story: As an admin,</strong> I want to <strong>delete</stro=
+ng> a category so that I can remove unnecessary categories.&nbsp;</p></li>
+</ul></li>
+</ol>
+<p style=3D"margin-left: 60.0px;"><strong>Acceptance Criteria:</strong></p>
+<p style=3D"margin-left: 90.0px;"><strong>Given</strong> I am on the catego=
+ry management page,<strong> when </strong>I select a category and click the=
+ <strong>"Delete"</strong> button, then I should see a <strong>confirmation=
+</strong> prompt.&nbsp;</p>
+<p style=3D"margin-left: 90.0px;"><strong>When</strong> I confirm the delet=
+ion, then the category should be removed from the list.&nbsp;</p>
+<ol start=3D"6">
+<li>
+<p><strong>Feature</strong>: View All Categories</p>
+<ul>
+<li>
+<p><strong>User Story: As an admin, </strong>I want to <strong>view all exi=
+sting categories</strong> <strong>so that</strong> I can easily understand =
+and manage my organizational structure.&nbsp;</p></li>
+</ul></li>
+</ol>
+<p style=3D"margin-left: 60.0px;"><strong>Acceptance Criteria:</strong></p>
+<p style=3D"margin-left: 90.0px;"><strong>Given</strong> I am on the catego=
+ry management page, <strong>when</strong> the page loads, <strong>then</str=
+ong> I should see a list of all categories with their names and description=
+s.&nbsp;</p>
+<p style=3D"margin-left: 90.0px;"><strong>Given</strong> there are no categ=
+ories created, <strong>when</strong> I access the category management page,=
+ <strong>then</strong> I should see a message indicating no categories are =
+available.&nbsp;</p>
+<p style=3D"margin-left: 90.0px;"><strong>Given</strong> there are many cat=
+egories, <strong>when</strong> I view the list, <strong>then</strong> the c=
+ategories should be scrollable for better usability.&nbsp;</p>
+<hr>
+<ol start=3D"7">
+<li>
+<p><strong><span data-colorid=3D"dimw0ip8c8"><span class=3D"inline-comment-=
+marker" data-ref=3D"23cfaa37-166c-481a-a3fd-f0cd987f8e5a">Feature</span></s=
+pan></strong><span data-colorid=3D"wd30p8ufez"><span class=3D"inline-commen=
+t-marker" data-ref=3D"23cfaa37-166c-481a-a3fd-f0cd987f8e5a">: Assign Jobs/S=
+kills to Category</span></span></p>
+<ul>
+<li>
+<p><strong><span data-colorid=3D"xsgy4yafxo">User Story: As an admin</span>=
+</strong><span data-colorid=3D"z9dkjrlk64">, I want to </span><strong><span=
+ data-colorid=3D"cx2ioiajmp"><span class=3D"inline-comment-marker" data-ref=
+=3D"288eb96d-fd3b-4584-83b4-c462758ae8e4">assign jobs, skills, service type=
+s, or specific services</span></span></strong><span data-colorid=3D"fyvku33=
+vja"><span class=3D"inline-comment-marker" data-ref=3D"288eb96d-fd3b-4584-8=
+3b4-c462758ae8e4"> </span></span><strong><span data-colorid=3D"g6td8cb3jx">=
+to a category</span></strong><span data-colorid=3D"qb0ohhv3sj"> so that use=
+rs can easily find relevant opportunities and resources.&nbsp;</span></p></=
+li>
+</ul></li>
+</ol>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"rm910ma0iv"=
+>Acceptance Criteria&nbsp;</span></strong></p>
+<p style=3D"margin-left: 90.0px;"><strong><span data-colorid=3D"qg7jzed0gg"=
+>Given</span></strong><span data-colorid=3D"ncwb9zoo9b"> I am on the catego=
+ry management page, </span><strong><span data-colorid=3D"g8avog0jdd">when</=
+span></strong><span data-colorid=3D"danfc47tx1"> I click on a specific mino=
+r category, </span><strong><span data-colorid=3D"nrzh98e2iu">then</span></s=
+trong><span data-colorid=3D"vnbsibqih1"> I should see an option to assign j=
+obs, skills, service types, or specific services&nbsp;to that category.&nbs=
+p;</span></p>
+<p style=3D"margin-left: 90.0px;"><strong><span data-colorid=3D"m4ru8k8pip"=
+>Given</span></strong><span data-colorid=3D"nwc6m0w0sp"> I am on the assign=
+ment page, </span><strong><span data-colorid=3D"lrjhuohp35">when</span></st=
+rong><span data-colorid=3D"fwy8pc5g47"> I select the desired jobs or skills=
+ from an existing list or choose to add them manually, </span><strong><span=
+ data-colorid=3D"d95citq9db">then</span></strong><span data-colorid=3D"lukk=
+99xe16"> these jobs or skills should be linked to the category and appear i=
+n the category's details.&nbsp;</span></p>
+<p style=3D"margin-left: 30.0px;"></p>
+<p><strong><span data-colorid=3D"zjk74hswjp">8.Feature</span></strong><span=
+ data-colorid=3D"t3l3uq4ihp">: Manual Addition of Jobs/Skills</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"empy9osne2"=
+>User Story: As an admin</span></strong><span data-colorid=3D"yqe4v6c3b9">,=
+ I want the ability to manually add jobs or skills to a category, so I can =
+ensure all relevant opportunities are included, even if they are not in the=
+ existing list</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"it9owzvdci"=
+>Acceptance Criteria&nbsp;</span></strong></p>
+<p style=3D"margin-left: 90.0px;"><strong><span data-colorid=3D"el08v2hd2g"=
+>Given</span></strong><span data-colorid=3D"t8k9m3il0i"> I am on the assign=
+ment page, </span><strong><span data-colorid=3D"jlujixegep">when</span></st=
+rong><span data-colorid=3D"tve1uvpnw6"> I do not find the desired jobs, ski=
+lls, service types, or specific services&nbsp;in the existing list, </span>=
+<strong><span data-colorid=3D"g0au2rr9cd">then</span></strong><span data-co=
+lorid=3D"nibu19apyg"> I should see an option to "Add Manually."&nbsp;</span=
+></p>
+<p style=3D"margin-left: 90.0px;"><strong><span data-colorid=3D"k5y7u0kftc"=
+>When</span></strong><span data-colorid=3D"umw9m0wdd8"> I click "Add Manual=
+ly," </span><strong><span data-colorid=3D"h4t8ni9nsd">then</span></strong><=
+span data-colorid=3D"hjc2v242s9"> I should see a form where I can enter the=
+ job or skill name and description.&nbsp;</span></p>
+<p style=3D"margin-left: 90.0px;"><strong><span data-colorid=3D"bj0xu0zppk"=
+>When</span></strong><span data-colorid=3D"cf7trjyo6f"> I fill out the form=
+ and click "Save," </span><strong><span data-colorid=3D"hpovmqamsw">then</s=
+pan></strong><span data-colorid=3D"ocrrrkli2l"> the new job or skill should=
+ be added to the existing list and automatically assigned to the category.&=
+nbsp;</span></p>
+<p style=3D"margin-left: 90.0px;"><strong><span data-colorid=3D"a211v31lsh"=
+>When</span></strong><span data-colorid=3D"t53b9fnzgk"> I navigate back to =
+the category details, </span><strong><span data-colorid=3D"yw7svlfaqc">then=
+</span></strong><span data-colorid=3D"zbc6v3urga"> I should see the </span>=
+<strong><span data-colorid=3D"lb303y3vod">newly added </span></strong><span=
+ data-colorid=3D"gl3l3tno1i">jobs or skills</span><strong><span data-colori=
+d=3D"qz7mj11heb"> in the list of assigned items </span></strong><span data-=
+colorid=3D"p5s94pgow9">(the specific section within the category details wh=
+ere all the jobs or skills that have been linked to that category are displ=
+ayed)</span></p>
+<hr>
+<ol start=3D"9">
+<li>
+<p><strong><span data-colorid=3D"xl5984jd85">Feature</span></strong><span d=
+ata-colorid=3D"qgsdtzyhlr">: Browse Content by Categories</span></p></li>
+</ol>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"vqtuiagncd"=
+>User Story: As a user, </span></strong><span data-colorid=3D"ht89l4pakg">I=
+ want to browse content by categories so that I can find relevant informati=
+on more easily.&nbsp;</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"utnca4agjd"=
+>Acceptance Criteria:</span></strong></p>
+<p style=3D"margin-left: 90.0px;"><strong><span data-colorid=3D"a6drtpxxun"=
+>Given </span></strong><span data-colorid=3D"n02g65o3i5">I am on the</span>=
+<strong><span data-colorid=3D"r3l30rviim"> main site</span></strong><span d=
+ata-colorid=3D"pbsfaywu09">, when I </span><strong><span data-colorid=3D"hm=
+tq7l12xc">select</span></strong><span data-colorid=3D"tiae3n6l0f"> a catego=
+ry from the </span><strong><span data-colorid=3D"wcwpx8xnb8">category list<=
+/span></strong><span data-colorid=3D"eyduwa52js">, then I should see </span=
+><strong><span data-colorid=3D"oz42sfgfql">a filtered view </span></strong>=
+<span data-colorid=3D"vxrnquyvwf">displaying only the content associated wi=
+th that category.&nbsp;</span></p>
+<p style=3D"margin-left: 90.0px;"><span data-colorid=3D"vzf2w7ot9h">When I =
+</span><strong><span data-colorid=3D"ejc7g9pb93">click </span></strong><spa=
+n data-colorid=3D"rmyblmgive">on an item </span><strong><span data-colorid=
+=3D"obhdkjrk6y">within the filtered view, </span></strong><span data-colori=
+d=3D"bpvybooe9y">then I should be taken to the </span><strong><span data-co=
+lorid=3D"jr69dyn0if">detailed page </span></strong><span data-colorid=3D"jx=
+8uq26cyt">of that item.&nbsp;</span></p>
+<p style=3D"margin-left: 90.0px;"><strong><span data-colorid=3D"h1rtiilsk9"=
+>Then </span></strong><span data-colorid=3D"sxjwtd33uk">the detailed page s=
+hould also display:</span></p>
+<p style=3D"margin-left: 120.0px;"><strong><span data-colorid=3D"a3jpgl1p3k=
+">Filter options</span></strong><span data-colorid=3D"q4e5q88pxp"> to refin=
+e the search further</span></p>
+<p style=3D"margin-left: 120.0px;"><strong><span data-colorid=3D"rmx7cij9ij=
+">Profiles</span></strong><span data-colorid=3D"h9vo2p1o9i"> of freelancers=
+ related to the category or item</span></p>
+<p>&nbsp;</p>
+<hr>
+<h2 id=3D"Userstoriesforcategories-feature9isunnecessaryandcanbetotallyremo=
+ved.">feature 9 is <span style=3D"background-color: rgb(223,216,253);">unne=
+cessary </span>and can be totally <span style=3D"background-color: rgb(223,=
+216,253);">removed</span>.</h2>
+<h2 id=3D"Userstoriesforcategories-features7&amp;8editedversion,Thesefeatur=
+esarelessimportant;theyarealsoextra.Wemaythinkaboutthemlater.">features 7 &=
+amp; 8 edited version , These features are<strong><span style=3D"background=
+-color: rgb(223,216,253);"> less important</span></strong>; they are also <=
+span style=3D"background-color: rgb(223,216,253);">extra</span>. We may thi=
+nk about them later.</h2>
+<h3 id=3D"Userstoriesforcategories-CreateandManageListswithinMinorCategorie=
+s"><strong><span data-colorid=3D"i78u6glv8e">Create and Manage Lists within=
+ Minor Categories</span></strong></h3>
+<p><strong><span data-colorid=3D"qsxnmdaz8r">As an</span></strong><span dat=
+a-colorid=3D"n4m7sgewd8">: admin </span><strong><span data-colorid=3D"cfbq1=
+wdpij">, I want</span></strong><span data-colorid=3D"pt53a9bgsj">: to creat=
+e and manage lists of items such as skills and jobs inside minor categories=
+ </span><strong><span data-colorid=3D"yb3at8v894">So that</span></strong><s=
+pan data-colorid=3D"e84rdoqxsa">: I can organize and reuse lists and ensure=
+ updates are reflected globally</span></p>
+<p><strong><span data-colorid=3D"roiaxpkqmt">Acceptance Criteria</span></st=
+rong><span data-colorid=3D"bxhy6t7ou7">:</span></p>
+<ol start=3D"1">
+<li>
+<p><strong><span data-colorid=3D"zuuthf9g3l">Creating Lists</span></strong>=
+<span data-colorid=3D"zqjmlkfjmc">:</span></p></li>
+</ol>
+<p><strong><span data-colorid=3D"lja7p7o8vn">As an:</span></strong><span da=
+ta-colorid=3D"a50i0cu5wk"> admin, </span><strong><span data-colorid=3D"oeq6=
+4mhg1h">I want:</span></strong><span data-colorid=3D"vteh9ke2ex"> to create=
+ a new list within a minor category</span></p>
+<p><strong><span data-colorid=3D"q1qftenesm">So that:</span></strong><span =
+data-colorid=3D"ou7pkgihhc"> I can organize items within that category</spa=
+n></p>
+<p><strong><span data-colorid=3D"g9i036rr4a">Acceptance Criteria&nbsp;</spa=
+n></strong></p>
+<p style=3D"margin-left: 30.0px;"><span data-colorid=3D"pgbf377xaq">Given I=
+ am on the category management page</span></p>
+<p style=3D"margin-left: 30.0px;"><span data-colorid=3D"ubk37rvgpu">When I =
+select a specific minor category</span></p>
+<p style=3D"margin-left: 30.0px;"><span data-colorid=3D"z3naeup1kh">Then I =
+should see an option to create a new list and name it</span></p>
+<ol start=3D"2">
+<li>
+<p><strong><span data-colorid=3D"ll49w3xtbn">Adding Items to Lists within M=
+inor Categories</span></strong></p></li>
+</ol>
+<p><strong><span data-colorid=3D"dubsfov8un">Title:</span></strong><span da=
+ta-colorid=3D"tnkmidu3ea"> Assign Skills or Jobs to Minor Categories</span>=
+</p>
+<p><strong><span data-colorid=3D"s7dkdyqt4x">As an:</span></strong><span da=
+ta-colorid=3D"lgy8udbgav"> admin</span></p>
+<p><strong><span data-colorid=3D"cyj7b4er44">I want:</span></strong><span d=
+ata-colorid=3D"widmyh4fci"> to add specific items, such as skills or jobs, =
+to lists within minor categories</span></p>
+<p><strong><span data-colorid=3D"uhjcab7fuk">So that:</span></strong><span =
+data-colorid=3D"z4g64uypq0"> I can effectively assign relevant skills or jo=
+bs to the minor categories</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"s6jd8b731l"=
+>Acceptance Criteria&nbsp;</span></strong></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"sq5n8cm5jn">Given I=
+ am on the list creation page</span></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"pyvzfb2l8i">When I =
+choose to add items manually</span></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"ybiz9ukgma">Then I =
+should be able to add specific items, such as "React JS" or "HTML=E2=80=9D =
+to the list</span></p>
+<ol start=3D"3">
+<li>
+<p><strong><span data-colorid=3D"b3l90plwgt">Using Lists in Other Categorie=
+s</span></strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"f9crmstx1o"=
+>As an:</span></strong><span data-colorid=3D"s8m53qn7e3"> admin</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"marmyxvjpe"=
+>I want:</span></strong><span data-colorid=3D"bpcjkh5s1c"> to select from e=
+xisting global lists when assigning skills to a different minor category</s=
+pan></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"x1u4vh1ecn"=
+>So that:</span></strong><span data-colorid=3D"drb9vhpvtl"> I can reuse lis=
+ts and maintain consistency</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"feqp53yegr"=
+>Acceptance Criteria&nbsp;</span></strong></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"vdx3fg6v9t"=
+>Given</span></strong><span data-colorid=3D"gmv3wgavj6"> I am on the catego=
+ry management page</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"joss2phrte"=
+>When </span></strong><span data-colorid=3D"iq7ldz9roo">I am assigning skil=
+ls to a different minor category</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"i0ag58qfd8"=
+>Then </span></strong><span data-colorid=3D"gt6mwaxjg4">I should have an op=
+tion to select from existing lists</span></p>
+<ol start=3D"4">
+<li>
+<p><strong><span data-colorid=3D"w5388cf23g">Editing Lists</span></strong><=
+span data-colorid=3D"xai5glp67m">:</span></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"uecyd8yho3"=
+>As an:</span></strong><span data-colorid=3D"szhn0mf83b"> admin</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"y5jomw594k"=
+>I want:</span></strong><span data-colorid=3D"khsahsnnyh"> to edit lists by=
+ adding more items or modifying existing items</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"jxj1l827eg"=
+>So that:</span></strong><span data-colorid=3D"fpvhryypgz"> I can ensure th=
+e lists are up-to-date and accurate</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"pziwxtdbee"=
+>Acceptance Criteria&nbsp;</span></strong></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"s6j18ii7pt">Given I=
+ am on the category management page</span></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"yh0slgdg4u">When I =
+select a list</span></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"injvhxl9oy">Then I =
+should be able to edit the list by adding more items or modifying existing =
+items</span></p>
+<ol start=3D"5">
+<li>
+<p><strong><span data-colorid=3D"cyl8lsxeaj">Global Update Reflection</span=
+></strong><span data-colorid=3D"jwyxa9wb4p">:</span></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"vv494sgguf"=
+>As an:</span></strong><span data-colorid=3D"bwxjrnxkn2"> admin</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"fjyeoev46d"=
+>I want:</span></strong><span data-colorid=3D"qgy4un4l25"> changes made to =
+a list to be reflected globally</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"lz14f8qeag"=
+>So that:</span></strong><span data-colorid=3D"jy5x8j5ao6"> updates are con=
+sistently applied across all categories that use the list</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"myyk2ei8bw"=
+>Acceptance Criteria&nbsp;</span></strong></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"xopfe1lvdc">Given I=
+ have edited a list</span></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"mb60rrvey3">When I =
+make changes to the list</span></p>
+<p style=3D"margin-left: 60.0px;"><span data-colorid=3D"emocl5f44l">Then th=
+ese changes should be reflected globally in all categories that use this li=
+st</span></p>
+<p></p>
+<ol start=3D"6">
+<li>
+<p><strong><span data-colorid=3D"g83pxx5089">Deleting Lists:</span></strong=
+></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"jdykdcd8lg"=
+>As an:</span></strong><span data-colorid=3D"jzgzwbm2ka"> admin</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"xdfxvcoqbx"=
+>I want:</span></strong><span data-colorid=3D"hwyzk2tb90"> to delete a spec=
+ific list</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"orh910l1r2"=
+>So that:</span></strong><span data-colorid=3D"jb9drqoub1"> I can remove ou=
+tdated or unnecessary lists, ensuring the lists remain relevant and clean</=
+span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"x1wq9rij8o"=
+>Acceptance Criteria&nbsp;</span></strong></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"u8o15b2bdz"=
+>Given</span></strong><span data-colorid=3D"s1foc2san7"> I am on the catego=
+ry management page</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"emohvwlu2d"=
+>When</span></strong><span data-colorid=3D"rj3i090ni2"> I navigate to any m=
+inor category</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"opcghygzw0"=
+>And</span></strong><span data-colorid=3D"zcfeeuid7x"> I select a specific =
+list</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"texxsp7a0u"=
+>Then</span></strong><span data-colorid=3D"j3pa3pbyqy"> I should be able to=
+ delete the list</span></p>
+<ol start=3D"7">
+<li>
+<p><strong><span data-colorid=3D"n1lpbca9co">Viewing lists=E2=80=99 items:<=
+/span></strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"lvnlk9ks7p"=
+>As an:</span></strong><span data-colorid=3D"dhz1f8g80m"> admin</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"pxeymt3s3o"=
+>I want:</span></strong><span data-colorid=3D"hl8vke20w4"> to see all the i=
+tems that have been selected from the global lists for a specific minor cat=
+egory</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"i5aq688h60"=
+>So that:</span></strong><span data-colorid=3D"m5x3e94d12"> I can verify an=
+d manage the items assigned to that minor category</span></p>
+<p style=3D"margin-left: 30.0px;"><strong><span data-colorid=3D"v4mt1wmxr5"=
+>Acceptance Criteria&nbsp;</span></strong></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"xiic7lh71f"=
+>Given</span></strong><span data-colorid=3D"drrbsu1tks"> I am on the catego=
+ry management page</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"w4q1kdciju"=
+>When</span></strong><span data-colorid=3D"qxqcp4b96b"> I navigate to a min=
+or category</span></p>
+<p style=3D"margin-left: 60.0px;"><strong><span data-colorid=3D"br35o3v70c"=
+>Then</span></strong><span data-colorid=3D"m5oeay2m1n"> I should see all th=
+e items that have been selected from the global lists for that category</sp=
+an></p>
+<p style=3D"margin-left: 30.0px;"></p>
+    </div>
+</body>
+</html>
+------=_Part_14_366820265.1749287438841--

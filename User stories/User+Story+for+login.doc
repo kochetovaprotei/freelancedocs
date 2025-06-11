@@ -1,0 +1,502 @@
+Message-ID: <1806433243.21.1749287880091@fff7d9a6e7bb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_1099162698.1749287880090"
+
+------=_Part_20_1099162698.1749287880090
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>User Story for login</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>User Story for login</h1>
+    <div class=3D"Section1">
+        <p>
+<style>[data-colorid=3Dybiufb5k6x]{color:#b3d4ff} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dybiufb5k6x]{color:#00214c}[data-colorid=3Dhscbosh7mu]{c=
+olor:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dhscbosh7mu]{colo=
+r:#00214c}[data-colorid=3Dxdhnlax1b3]{color:#b3d4ff} html[data-color-mode=
+=3Ddark] [data-colorid=3Dxdhnlax1b3]{color:#00214c}[data-colorid=3Djkq8764n=
+8v]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Djkq8764n8v]=
+{color:#00214c}[data-colorid=3Daigr14oa2g]{color:#b3d4ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Daigr14oa2g]{color:#00214c}[data-colorid=3Dpzkcp=
+qqduj]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dpzkcpqqd=
+uj]{color:#00214c}[data-colorid=3Dh10mnftk4u]{color:#b3d4ff} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dh10mnftk4u]{color:#00214c}[data-colorid=3Diq=
+q4wg2s6d]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Diqq4w=
+g2s6d]{color:#00214c}[data-colorid=3Dmu6xcswb8e]{color:#b3d4ff} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dmu6xcswb8e]{color:#00214c}[data-colorid=
+=3Dnox3qm308w]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3D=
+nox3qm308w]{color:#00214c}[data-colorid=3Dcnqa7ld6ep]{color:#b3d4ff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dcnqa7ld6ep]{color:#00214c}[data-colo=
+rid=3Dx09h5med2r]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=
+=3Dx09h5med2r]{color:#00214c}[data-colorid=3Djt7maceyj5]{color:#b3d4ff} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Djt7maceyj5]{color:#00214c}[data-c=
+olorid=3Dn5rkmzrg30]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dn5rkmzrg30]{color:#00214c}[data-colorid=3Dpq5dpjcsv0]{color:#b3d4ff} =
+html[data-color-mode=3Ddark] [data-colorid=3Dpq5dpjcsv0]{color:#00214c}[dat=
+a-colorid=3Dj7hu604n60]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dj7hu604n60]{color:#00214c}[data-colorid=3Dtpn3ofo80f]{color:#b3d4f=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dtpn3ofo80f]{color:#00214c}[=
+data-colorid=3Dbn7jjir8ik]{color:#b3d4ff} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dbn7jjir8ik]{color:#00214c}[data-colorid=3Dfzkk1k22i6]{color:#b3=
+d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dfzkk1k22i6]{color:#00214=
+c}[data-colorid=3Dbqe6t7vz57]{color:#b3d4ff} html[data-color-mode=3Ddark] [=
+data-colorid=3Dbqe6t7vz57]{color:#00214c}[data-colorid=3Djuosu6my5s]{color:=
+#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Djuosu6my5s]{color:#00=
+214c}[data-colorid=3Ddolvtquts2]{color:#b3d4ff} html[data-color-mode=3Ddark=
+] [data-colorid=3Ddolvtquts2]{color:#00214c}[data-colorid=3Da69jsne1ss]{col=
+or:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Da69jsne1ss]{color:=
+#00214c}[data-colorid=3Ddptadwvmd5]{color:#b3d4ff} html[data-color-mode=3Dd=
+ark] [data-colorid=3Ddptadwvmd5]{color:#00214c}[data-colorid=3Dmf35b7jb10]{=
+color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dmf35b7jb10]{col=
+or:#00214c}[data-colorid=3Dhegyk4o4c8]{color:#b3d4ff} html[data-color-mode=
+=3Ddark] [data-colorid=3Dhegyk4o4c8]{color:#00214c}[data-colorid=3Dynpfp0dp=
+t8]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dynpfp0dpt8]=
+{color:#00214c}[data-colorid=3Dxwsq7zj93v]{color:#b3d4ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dxwsq7zj93v]{color:#00214c}[data-colorid=3Dndije=
+idyo3]{color:#b3d4ff} html[data-color-mode=3Ddark] [data-colorid=3Dndijeidy=
+o3]{color:#00214c}[data-colorid=3Dbavpg3tuci]{color:#b3d4ff} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dbavpg3tuci]{color:#00214c}</style></p>
+<h3 id=3D"UserStoryforlogin-UserStorieswithAcceptanceCriteria"><strong>User=
+ Stories with Acceptance Criteria</strong></h3>
+<h4 id=3D"UserStoryforlogin-1.UserLogin"><strong>1. User Login</strong></h4=
+>
+<ul>
+<li>
+<p><strong>User Story:</strong><br>
+As a user, I want to log in with my email and password, so that I can secur=
+ely access my account.</p></li>
+<li>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I am on the login page, <strong>when </strong>I e=
+nter a valid email and password, <strong>then </strong>I should be logged i=
+n and redirected to my dashboard.</p></li>
+<li>
+<p><strong>Given </strong>I enter invalid credentials, <strong>when </stron=
+g>I click the login button, <strong>then </strong>I should see an error mes=
+sage prompting me =E2=80=9CEmail or password are incorrect=E2=80=9C.</p></l=
+i>
+<li>
+<p><strong>Given </strong>email or password fields are left empty, <strong>=
+when </strong>I click the login button, <strong>then </strong>I should see =
+an error message prompting me =E2=80=9CFill required fields=E2=80=9D.</p></=
+li>
+<li>
+<p><strong>Given </strong>I am not registered, <strong>when </strong>I clic=
+k "Registration," <strong>then </strong>I should be redirected to the regis=
+tration page.</p></li>
+</ul></li>
+</ul>
+<hr>
+<h4 id=3D"UserStoryforlogin-2.ForgotPassword"><strong>2. Forgot Password</s=
+trong></h4>
+<ul>
+<li>
+<p><strong>User Story:</strong><br>
+As a user, I want to reset my password if I forget it, so that I can regain=
+ access to my account.</p></li>
+<li>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given </strong>I am on the login page, <strong>when </strong>I c=
+lick "Forgot Password," <strong>then </strong>I should be redirected to a r=
+eset password page.</p></li>
+<li>
+<p><strong>Given </strong>I provide a registered email, <strong>when </stro=
+ng>I submit the reset form, <strong>then </strong>I should receive an email=
+ with a password reset link.</p></li>
+<li>
+<p><strong>Given </strong>I provide an unregistered email, <strong>when </s=
+trong>I submit the reset form, <strong>then </strong>I should see an error =
+message saying, "If email has been registered, we will send you message soo=
+n."</p></li>
+<li>
+<p><strong>Given </strong>I click the reset link in my email, <strong>when =
+</strong>I set a new password and confirm it, <strong>then </strong>my pass=
+word should be updated, and I should be redirected to the login page.</p></=
+li>
+<li>
+<p><strong>Given </strong>the reset link is expired or invalid, <strong>whe=
+n </strong>I try to use it, <strong>then </strong>I should see an error mes=
+sage saying, "Reset link expired. Please request a new one."</p></li>
+</ul></li>
+</ul>
+<hr>
+<h4 id=3D"UserStoryforlogin-3.RegisterYourEmail"><strong>3. Register Your E=
+mail</strong></h4>
+<ul>
+<li>
+<p><strong>User Story:</strong><br>
+As a new user, I want to register my email and password, so that I can crea=
+te an account.</p></li>
+<li>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given </strong>I am on the registration page, <strong>when</stro=
+ng> I provide a valid email, password, and confirm the password, <strong>th=
+en</strong> I should proceed to the next step of the registration process.<=
+/p></li>
+<li>
+<p><strong>Given</strong> I am on the registration page, <strong>when</stro=
+ng> I enter weak password, <strong>then</strong> I should see an error mess=
+age prompting me valid parameters I need for password (length, etc).</p></l=
+i>
+<li>
+<p><strong>Given</strong> I enter mismatched passwords, <strong>when</stron=
+g> I submit the form, <strong>then</strong> I should see an error message p=
+rompting me to re-enter matching passwords.</p></li>
+<li>
+<p><strong>Given</strong> any required field is left empty, <strong>when</s=
+trong> I click the Register button, <strong>then</strong> I should see an e=
+rror message prompting me to fill it.</p></li>
+<li>
+<p><strong>Given</strong> I provide an already-registered email, <strong>wh=
+en</strong> I submit the form, <strong>then</strong> I should see an error =
+message saying, "Email already registered."</p></li>
+</ul></li>
+</ul>
+<h4 id=3D"UserStoryforlogin-4.PersonalInformation"><strong><span data-color=
+id=3D"dolvtquts2">4. Personal Information</span></strong></h4>
+<ul>
+<li>
+<p><strong><span data-colorid=3D"jkq8764n8v">User Story:</span></strong><br=
+><span data-colorid=3D"ynpfp0dpt8">As a new user, I want to provide my pers=
+onal information, so that I can create a complete profile.</span></p></li>
+<li>
+<p><strong><span data-colorid=3D"bn7jjir8ik">Acceptance Criteria:</span></s=
+trong></p>
+<ul>
+<li>
+<p><span data-colorid=3D"hegyk4o4c8">Given I am on the personal information=
+ page, when I fill out all required fields (First Name, Last Name, Address,=
+ City/State, Country, Phone Number, Language, Describe Yourself), then I sh=
+ould be able to proceed to the next page.</span></p></li>
+<li>
+<p><span data-colorid=3D"n5rkmzrg30">Given I skip optional fields, when I c=
+lick "Next," then I should still proceed to the next step without errors.</=
+span></p></li>
+<li>
+<p><span data-colorid=3D"ybiufb5k6x">Given I upload an invalid profile pict=
+ure format, when I attempt to proceed, then I should see an error message p=
+rompting me to upload a valid format (e.g., .jpg, .png).</span></p></li>
+<li>
+<p><span data-colorid=3D"nox3qm308w">Given any required field is left empty=
+, when I click "Next," then I should see an error message highlighting the =
+missing fields.</span></p></li>
+<li>
+<p><span data-colorid=3D"mu6xcswb8e">Given I do not check the "Agree to Ter=
+ms and Conditions" box, when I attempt to continue, then I should see an er=
+ror message prompting me to accept the terms.</span></p></li>
+</ul></li>
+</ul>
+<h4 id=3D"UserStoryforlogin-5.AdditionalProfessionalDetails"><strong><span =
+data-colorid=3D"hscbosh7mu">5. Additional Professional Details</span></stro=
+ng></h4>
+<ul>
+<li>
+<p><strong><span data-colorid=3D"bqe6t7vz57">User Story:</span></strong><br=
+><span data-colorid=3D"dptadwvmd5">As a new freelancer user, I want to prov=
+ide details about my qualifications and experience, so that I can showcase =
+my professional skills to potential clients.</span></p></li>
+<li>
+<p><strong><span data-colorid=3D"ndijeidyo3">Acceptance Criteria:</span></s=
+trong></p>
+<ul>
+<li>
+<p><span data-colorid=3D"juosu6my5s">Given I am on the additional details p=
+age, when I fill out all required fields (Qualification, Years of Experienc=
+e, Profile Links, Profile Samples, Profile Categories, Project-based Price =
+Range), then I should be able to complete my registration.</span></p></li>
+<li>
+<p><span data-colorid=3D"mf35b7jb10">Given I upload a file larger than =E2=
+=80=A6 MB or an unsupported format, when I attempt to proceed, then I shoul=
+d see an error message prompting me to correct the issue.</span></p></li>
+<li>
+<p><span data-colorid=3D"aigr14oa2g">Given I leave the "Freelancer Tagline"=
+ empty, when I attempt to proceed, then I should see a reminder to add a ta=
+gline before submission.</span></p></li>
+<li>
+<p><span data-colorid=3D"j7hu604n60">Given I click "Complete Registration,"=
+ when all required fields are valid, then my profile should be successfully=
+ created, and I should be redirected to my dashboard.</span></p></li>
+</ul></li>
+</ul>
+<h4 id=3D"UserStoryforlogin-6.CompanyDetails"><strong><span data-colorid=3D=
+"fzkk1k22i6">6. Company Details</span></strong></h4>
+<ul>
+<li>
+<p><strong><span data-colorid=3D"pq5dpjcsv0">User Story:</span></strong><br=
+><span data-colorid=3D"xwsq7zj93v">As an Orgization Admin, I want to provid=
+e details about my company details, so that I can showcase the portfolio an=
+d services we made from our company.</span></p></li>
+<li>
+<p><strong><span data-colorid=3D"x09h5med2r">Acceptance Criteria:</span></s=
+trong></p>
+<ul>
+<li>
+<p><span data-colorid=3D"iqq4wg2s6d">Given I am on the company details page=
+, when I fill out all required fields (Company Name, Address, Phone, Email,=
+ Description), then I should be able to complete my registration.</span></p=
+></li>
+<li>
+<p><span data-colorid=3D"xdhnlax1b3">Given I leave the required fields empt=
+y, when I attempt to proceed, then I should see an error message highlighti=
+ng the missing fields.</span></p></li>
+<li>
+<p><span data-colorid=3D"pzkcpqqduj">Given I click "Complete Registration,"=
+ when all required fields are valid, then my company profile should be succ=
+essfully created, and I should be redirected to my dashboard.</span></p></l=
+i>
+</ul></li>
+</ul>
+<h4 id=3D"UserStoryforlogin-7.ManagingOrganization"><strong><span data-colo=
+rid=3D"bavpg3tuci">7. Managing Organization</span></strong></h4>
+<ul>
+<li>
+<p><strong><span data-colorid=3D"jt7maceyj5">User Story:</span></strong><br=
+><span data-colorid=3D"tpn3ofo80f">As an Organization Admin, I want to mana=
+ge the organization and the users in our organization, so that I would be a=
+ble to manage the changes in the organization.</span></p></li>
+<li>
+<p><strong><span data-colorid=3D"a69jsne1ss">Acceptance Criteria:</span></s=
+trong></p>
+<ul>
+<li>
+<p><span data-colorid=3D"h10mnftk4u">Given I am on the company details page=
+, when I fill out all required fields (Company Name, Address, Phone, Email,=
+ Description), then I should be able to complete my company profile updated=
+.</span></p></li>
+<li>
+<p><span data-colorid=3D"cnqa7ld6ep">Given only with the administrator righ=
+ts can edit and manage the organization, when someone with the normal user =
+role try to edit the company profile, then he/she should be blocked to edit=
+ with an error message =E2=80=9Caccess denied=E2=80=9D.</span></p></li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_20_1099162698.1749287880090--

@@ -1,0 +1,365 @@
+Message-ID: <2082605868.17.1749287690074@fff7d9a6e7bb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16_814009471.1749287690074"
+
+------=_Part_16_814009471.1749287690074
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>User Stories When Logged in</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>User Stories When Logged in</h1>
+    <div class=3D"Section1">
+        <hr>
+<h3 id=3D"UserStoriesWhenLoggedin-1.PersonalDashboard">1. <strong><span cla=
+ss=3D"inline-comment-marker" data-ref=3D"ecd30372-e262-4650-823d-efffa22f39=
+0d">Personal Dashboard</span></strong></h3>
+<p><strong>User Story:</strong><br>
+As a user, I want to have a personal dashboard, so that I can efficiently m=
+anage my <span class=3D"inline-comment-marker" data-ref=3D"0b9abf27-edfc-42=
+20-96ce-7e2fee9885bb">orders </span>and interactions on the platform.</p>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong><span class=3D"inline-comment-marker" data-ref=3D"9dbfd362-97e1-=
+40ad-a264-859aa6cb70e5">Given</span></strong><span class=3D"inline-comment-=
+marker" data-ref=3D"9dbfd362-97e1-40ad-a264-859aa6cb70e5"> I am logged in,<=
+/span><br><strong><span class=3D"inline-comment-marker" data-ref=3D"9dbfd36=
+2-97e1-40ad-a264-859aa6cb70e5">When</span></strong><span class=3D"inline-co=
+mment-marker" data-ref=3D"9dbfd362-97e1-40ad-a264-859aa6cb70e5"> I navigate=
+ to my dashboard,</span><br><strong><span class=3D"inline-comment-marker" d=
+ata-ref=3D"9dbfd362-97e1-40ad-a264-859aa6cb70e5">Then</span></strong><span =
+class=3D"inline-comment-marker" data-ref=3D"9dbfd362-97e1-40ad-a264-859aa6c=
+b70e5"> I should see an overview of active, pending, completed, and cancele=
+d orders.</span></p></li>
+<li>
+<p><strong><span class=3D"inline-comment-marker" data-ref=3D"9dbfd362-97e1-=
+40ad-a264-859aa6cb70e5">Given</span></strong><span class=3D"inline-comment-=
+marker" data-ref=3D"9dbfd362-97e1-40ad-a264-859aa6cb70e5"> I have an ongoin=
+g order,</span><br><strong><span class=3D"inline-comment-marker" data-ref=
+=3D"9dbfd362-97e1-40ad-a264-859aa6cb70e5">When</span></strong><span class=
+=3D"inline-comment-marker" data-ref=3D"9dbfd362-97e1-40ad-a264-859aa6cb70e5=
+"> the order status changes (e.g., completed or canceled),</span><br><stron=
+g><span class=3D"inline-comment-marker" data-ref=3D"9dbfd362-97e1-40ad-a264=
+-859aa6cb70e5">Then</span></strong><span class=3D"inline-comment-marker" da=
+ta-ref=3D"9dbfd362-97e1-40ad-a264-859aa6cb70e5"> my dashboard should update=
+ automatically to reflect the new status.</span></p></li>
+<li>
+<p><strong>Given</strong> I receive a new message or platform notification,=
+<br><strong>When</strong> I check my dashboard,<br><strong>Then</strong> I =
+should see a clear indicator of unread messages or updates.</p></li>
+</ul>
+<hr>
+<h3 id=3D"UserStoriesWhenLoggedin-2.ProfileCustomization">2. <strong>Profil=
+e Customization</strong></h3>
+<p><strong>User Story:</strong><br>
+As a user, I want to customize my profile, so that I can showcase my skills=
+ and attract more opportunities.</p>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I am logged in,<br><strong>When</strong> I edit m=
+y profile,<br><strong>Then</strong> I should be able to upload a profile pi=
+cture and write a bio.</p></li>
+<li>
+<p><strong>Given</strong> I am a seller,<br><strong>When</strong> I add ski=
+ll tags and upload portfolio samples,<br><strong>Then</strong> these should=
+ be displayed publicly on my profile.</p></li>
+<li>
+<p><strong>Given</strong> I want to update my availability,<br><strong>When=
+</strong> I set my profile status to "Available for work" or "Away,"<br><st=
+rong>Then</strong> other users should see the updated status.</p></li>
+</ul>
+<hr>
+<h3 id=3D"UserStoriesWhenLoggedin-3.ReviewandFeedbackSystem"><span class=3D=
+"inline-comment-marker" data-ref=3D"56661e5c-dac4-45a3-898c-ff924678b137">3=
+. </span><strong><span class=3D"inline-comment-marker" data-ref=3D"56661e5c=
+-dac4-45a3-898c-ff924678b137">Review and Feedback System</span></strong></h=
+3>
+<p><strong>User Story:</strong><br>
+As a user, I want to leave and manage reviews, so that I can share feedback=
+ about my experience on the platform.</p>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I complete a transaction,<br><strong>When</strong=
+> I leave a review,<br><strong>Then</strong> I should be able to add text, =
+optional images, and a rating.</p></li>
+<li>
+<p><strong>Given</strong> I have left a review,<br><strong>When</strong> I =
+want to edit or respond to feedback,<br><strong>Then</strong> I should have=
+ the option to do so within a set timeframe.</p></li>
+<li>
+<p><strong>Given</strong> I am a buyer or seller,<br><strong>When</strong> =
+I rate the other party,<br><strong>Then</strong> my rating should reflect m=
+y experience with them, not just the service.</p></li>
+</ul>
+<hr>
+<h3 id=3D"UserStoriesWhenLoggedin-4.Real-timeChatTools">4. <strong><span cl=
+ass=3D"inline-comment-marker" data-ref=3D"11018d89-3df1-4298-8b10-4d8e75271=
+0b7">Real-time Chat Too</span>ls</strong></h3>
+<p><strong>User Story:</strong><br>
+As a user, I want real-time chat functionality, so that I can communicate i=
+nstantly with <span class=3D"inline-comment-marker" data-ref=3D"efd78c72-47=
+0e-4be5-a0fc-f10288ed1592">buyers or sellers</span>.</p>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I am logged in,<br><strong>When</strong> I open a=
+ conversation,<br><strong>Then</strong> I should see messages in real time =
+without refreshing the page.</p></li>
+<li>
+<p><strong>Given</strong> I am discussing a project,<br><strong>When</stron=
+g> the other party sends a message,<br><strong>Then</strong> I should recei=
+ve a notification instantly.</p></li>
+<li>
+<p><strong>Given</strong> I want to revisit past conversations,<br><strong>=
+When</strong> I search or scroll in the chat,<br><strong>Then</strong> I sh=
+ould be able to access the full chat history.</p></li>
+</ul>
+<hr>
+<h3 id=3D"UserStoriesWhenLoggedin-5.ServiceCreationandManagement(forSellers=
+)">5. <strong>Service Creation and Management (for Sellers)</strong></h3>
+<p><strong>User Story:</strong><br>
+As a seller, I want to analyze and update my services, so that I can optimi=
+ze my offerings to attract more clients.</p>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I am a seller,<br><strong>When</strong> I view my=
+ services,<br><strong>Then</strong> I should see analytics such as views, c=
+licks, and conversion rates.</p></li>
+<li>
+<p><strong>Given</strong> I want to modify a service,<br><strong>When</stro=
+ng> I edit details like pricing or descriptions,<br><strong>Then</strong> t=
+he changes should reflect immediately after saving.</p></li>
+<li>
+<p><strong>Given</strong> I need to manage multiple services,<br><strong>Wh=
+en</strong> I update or delete a service,<br><strong>Then</strong> the plat=
+form should confirm the changes and update the service listing accordingly.=
+</p></li>
+</ul>
+<hr>
+    </div>
+</body>
+</html>
+------=_Part_16_814009471.1749287690074--

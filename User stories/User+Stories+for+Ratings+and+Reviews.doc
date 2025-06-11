@@ -1,0 +1,676 @@
+Message-ID: <1338902421.19.1749287820140@fff7d9a6e7bb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_18_929723038.1749287820139"
+
+------=_Part_18_929723038.1749287820139
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>User Stories for Ratings and Reviews</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>User Stories for Ratings and Reviews</h1>
+    <div class=3D"Section1">
+        <p>
+<style>[data-colorid=3Dt4zvwtva58]{color:#eae6ff} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dt4zvwtva58]{color:#040019}[data-colorid=3Dm5sv402h0w]{c=
+olor:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dm5sv402h0w]{colo=
+r:#040019}[data-colorid=3Dq7p4a7offz]{color:#eae6ff} html[data-color-mode=
+=3Ddark] [data-colorid=3Dq7p4a7offz]{color:#040019}[data-colorid=3Dyoqwduuj=
+rd]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dyoqwduujrd]=
+{color:#040019}[data-colorid=3Drl2xhpnpf9]{color:#eae6ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Drl2xhpnpf9]{color:#040019}[data-colorid=3Day2x0=
+ft4rb]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Day2x0ft4=
+rb]{color:#040019}[data-colorid=3Djrnmrrozwi]{color:#eae6ff} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Djrnmrrozwi]{color:#040019}[data-colorid=3Ds8=
+asw061m1]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Ds8asw=
+061m1]{color:#040019}[data-colorid=3Dk0ptwv19c5]{color:#eae6ff} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dk0ptwv19c5]{color:#040019}[data-colorid=
+=3Dsqht4p37xn]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3D=
+sqht4p37xn]{color:#040019}[data-colorid=3Dx34lnjdw5u]{color:#eae6ff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dx34lnjdw5u]{color:#040019}[data-colo=
+rid=3Dvfnhol3a93]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=
+=3Dvfnhol3a93]{color:#040019}[data-colorid=3Dlg7ugijzh7]{color:#eae6ff} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dlg7ugijzh7]{color:#040019}[data-c=
+olorid=3Dua2usiqyb8]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dua2usiqyb8]{color:#040019}[data-colorid=3Dertop9gd9r]{color:#eae6ff} =
+html[data-color-mode=3Ddark] [data-colorid=3Dertop9gd9r]{color:#040019}[dat=
+a-colorid=3Dxhwqhsnc5s]{color:#eae6ff} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dxhwqhsnc5s]{color:#040019}[data-colorid=3Docglte771k]{color:#eae6f=
+f} html[data-color-mode=3Ddark] [data-colorid=3Docglte771k]{color:#040019}[=
+data-colorid=3Deycjflv2j6]{color:#eae6ff} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Deycjflv2j6]{color:#040019}[data-colorid=3Diillzc0ey1]{color:#ea=
+e6ff} html[data-color-mode=3Ddark] [data-colorid=3Diillzc0ey1]{color:#04001=
+9}[data-colorid=3Dejq2bno7wh]{color:#eae6ff} html[data-color-mode=3Ddark] [=
+data-colorid=3Dejq2bno7wh]{color:#040019}[data-colorid=3Dq1lnw1cmjt]{color:=
+#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dq1lnw1cmjt]{color:#04=
+0019}[data-colorid=3Dvxria5juxi]{color:#eae6ff} html[data-color-mode=3Ddark=
+] [data-colorid=3Dvxria5juxi]{color:#040019}[data-colorid=3Duauxmob7zz]{col=
+or:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Duauxmob7zz]{color:=
+#040019}[data-colorid=3Dymvorv1i4t]{color:#eae6ff} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dymvorv1i4t]{color:#040019}[data-colorid=3Dlthv48lnnl]{=
+color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dlthv48lnnl]{col=
+or:#040019}[data-colorid=3Df7tpjvjp59]{color:#eae6ff} html[data-color-mode=
+=3Ddark] [data-colorid=3Df7tpjvjp59]{color:#040019}[data-colorid=3Dwl9zojkl=
+01]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dwl9zojkl01]=
+{color:#040019}[data-colorid=3Dnlo0exukoi]{color:#eae6ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dnlo0exukoi]{color:#040019}[data-colorid=3Dg6ggt=
+en4q2]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dg6ggten4=
+q2]{color:#040019}[data-colorid=3De2s3lt5lau]{color:#eae6ff} html[data-colo=
+r-mode=3Ddark] [data-colorid=3De2s3lt5lau]{color:#040019}[data-colorid=3Dpq=
+50yxa2w9]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dpq50y=
+xa2w9]{color:#040019}[data-colorid=3Dvalqyaxcgk]{color:#eae6ff} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dvalqyaxcgk]{color:#040019}[data-colorid=
+=3Dkapp6pi7dr]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3D=
+kapp6pi7dr]{color:#040019}[data-colorid=3Dogeuudrehr]{color:#eae6ff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dogeuudrehr]{color:#040019}</style>He=
+re are some detailed user stories for the review pages of a Freelancer plat=
+form. These stories include functionality for both freelancers and clients:=
+</p>
+<p><em><strong><u>Client Side</u></strong></em></p>
+<ol start=3D"1">
+<li>
+<p><strong>Ability to Leave a Review After Completing Work.</strong><br><st=
+rong>User Story:</strong> As a client who has hired a freelancer and comple=
+ted a project, I want to have the ability to leave a review about the compl=
+eted work so that other users can learn about the quality of the freelancer=
+'s services and help them improve their reputation.</p></li>
+</ol>
+<p><strong>Acceptance Criteria: </strong></p>
+<ul>
+<li>
+<p>Given I am a client who has hired a freelancer and completed a project, =
+when I visit the freelancer's profile, then I can see a button "Leave a rev=
+iew" to write a review.</p></li>
+<li>
+<p>Given that I clicked on the "Leave a Review" button, when I navigate to =
+the review page, then I see 4 criteria for rating the freelancer on a 5-poi=
+nt scale, a review form, and a submit button.</p></li>
+<li>
+<p>Given that I am leaving a rating on the review page, when I rate the fre=
+elancer on 4 criteria, write a comment in the review form, and click the "S=
+ubmit" button, then my review should be sent for moderation and published o=
+n the freelancer's profile page after review.</p></li>
+<li>
+<p>Given I am writing a review in the review form, when I enter a review fr=
+om 10 to 500 characters in length, then the system should accept the review=
+ without errors and allow me to submit it for moderation.</p></li>
+<li>
+<p>Given I am writing a review in the review form, when I enter less than 1=
+0 characters, then the system should display an error message indicating th=
+at the review must not less 10 characters.</p></li>
+<li>
+<p>Given I am writing a review in the review form, when I enter more than 5=
+00 characters, then the system should display an error message indicating t=
+hat the review must not exceed 500 characters.</p></li>
+<li>
+<p>Given that I am writing a review in the review window, when I leave the =
+required fields empty,<br>
+then the system should display an error message and highlight the empty fie=
+lds.</p></li>
+<li>
+<p>Given that I am writing a review in the review window, when I decide not=
+ to leave a review and click the "Cancel" button, then the review window sh=
+ould close without saving the entered data.<br></p></li>
+</ul>
+<p></p>
+<ol start=3D"2">
+<li>
+<p><strong> Ability to Edit a Review</strong><br><strong>User Story: </stro=
+ng>As a client, I want to be able to edit my review,so that I can correct m=
+istakes or add more information if needed.</p></li>
+</ol>
+<p><strong>Acceptance Criteria: </strong></p>
+<ul>
+<li>
+<p>Given I have written a review and want to edit it, when I click the "Edi=
+t" button next to my review at the bottom of the freelancer's profile page,=
+ then an editing field appears where I can modify the text of the review, a=
+nd a "Save" button to confirm the changes.</p></li>
+<li>
+<p>Given I have edited my review, when I save the changes, then I should se=
+e a message below the review confirming that my review has been successfull=
+y updated.</p></li>
+</ul>
+<p></p>
+<ol start=3D"3">
+<li>
+<p><strong>View Freelancer=E2=80=99s Reviews</strong><br><strong>User Story=
+:</strong> As a client, I want to see reviews left by other clients on a fr=
+eelancer=E2=80=99s profile, so that I can decide whether to hire them.</p><=
+/li>
+</ol>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p>Given I am on the freelancer's page when I scroll down the page to see t=
+he reviews section then I should see a list of all reviews from other clien=
+ts with ratings, text, date of completion and dates.</p></li>
+<li>
+<p>Given I am in the reviews section, when I choose the sorting option by d=
+ate or rating, then the reviews are sorted according to the selected parame=
+ter.</p></li>
+</ul>
+<p style=3D"margin-left: 30.0px;"><em>Sorting options:</em></p>
+<p style=3D"margin-left: 60.0px;">- By date (from newest to oldest)</p>
+<p style=3D"margin-left: 60.0px;">- By date (from oldest to newest)</p>
+<p style=3D"margin-left: 60.0px;">- By rating (from highest ratings to lowe=
+st)</p>
+<p style=3D"margin-left: 60.0px;">- By rating (from lowest ratings to highe=
+st)</p>
+<ul>
+<li>
+<p>Given I am in the reviews section, when I enter a keyword into the searc=
+h bar (e.g., "design", "website", "marketing"), then the system displays on=
+ly those reviews that contain the entered keyword.<br></p>
+<p><em> Search options: </em><br>
+ - By keywords in the review text<br>
+ - By the client's name<br>
+ - By projects or categories mentioned in the review</p></li>
+<li>
+<p>Given I am in the reviews section, when I select filter parameters, then=
+ the system displays only those reviews that match the selected criteria.<b=
+r></p>
+<p><em> Filter options:</em></p></li>
+</ul>
+<p style=3D"margin-left: 60.0px;">- By project completion terms ("completed=
+ on time", "delayed")</p>
+<p></p>
+<ol start=3D"4">
+<li>
+<p><strong><span class=3D"inline-comment-marker" data-ref=3D"a24420f6-ac5a-=
+4b71-babc-966eae3252a5">Report a Review</span></strong><br><strong>User Sto=
+ry:</strong> As a client, I want to be able to report a review to notify th=
+e administrator about problematic or false reviews, In order to ensure fair=
+ness and transparency on the platform.</p></li>
+</ol>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p>Given I am on the page with reviews, when I click the "Report" button ne=
+xt to the review, then the system displays a form to submit a complaint, wh=
+ere I can choose the reason for the complaint (e.g., false review, insults,=
+ inappropriate content, etc.).</p></li>
+<li>
+<p>Given I have filled out the form with a description of the issue, when I=
+ click the "Submit Complaint" button, then the complaint is sent for review=
+ to the platform administrator.</p></li>
+<li>
+<p>Given I have submitted a complaint about a review, when the system confi=
+rms the submission of the complaint, then I receive a notification that the=
+ complaint has been accepted and will be reviewed.</p></li>
+<li>
+<p>Given I have submitted a complaint, when the administrator has completed=
+ the review of the review, then I receive a notification with detailed info=
+rmation about the outcome of the review and the actions that were taken.</p=
+></li>
+<li>
+<p>Given I disagree with the administrator's decision on my complaint, when=
+ I select the "Appeal Decision" option, then I can provide additional evide=
+nce or comments for a re-evaluation, and the administration will review the=
+ decision again.<br></p></li>
+</ul>
+<ol start=3D"4">
+<li>
+<p><strong>Delete a Review</strong><br><strong>User Story:</strong> As a cl=
+ient, I want to delete a review, so that I can remove any inappropriate or =
+incorrect feedback.<br><strong>Acceptance Criteria:</strong></p></li>
+</ol>
+<ul>
+<li>
+<p>Given I have written my response to the review but want to delete it, wh=
+en I click the "Delete" button,<br>
+then A message appears saying "Your comment has been deleted," where the de=
+leted response was.</p></li>
+<li>
+<p>Given I am in the "Reviews" section and see the "Delete" button next to =
+the desired review, When I click the "Delete" button for the selected revie=
+w, Then I am shown a confirmation window for deleting the review (for examp=
+le, "Are you sure you want to delete this review?").</p>
+<p>Given I confirm that I want to delete the review, When I click the OK bu=
+tton, Then The review is deleted from my profile, and it is no longer displ=
+ayed on the reviews page.</p></li>
+</ul>
+<p></p>
+<p><em><strong><u>Freelancer Side</u></strong></em></p>
+<ol start=3D"1">
+<li>
+<p><strong>View My Reviews</strong><br><strong>User Story: </strong>As a fr=
+eelancer, I want to view reviews left by my clients, so that I can understa=
+nd how they perceive my work.</p></li>
+</ol>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p>Given I am on my profile page, when I scroll down my profile, then I see=
+ the "My Reviews" section and detailed information about the reviews I have=
+ left, including the review text, rating, and the client's name.</p></li>
+<li>
+<p>Given I am in the "My Reviews" section, when I sort the reviews by the s=
+elected criteria, then I see the reviews sorted by the criteria I selected.=
+<br><br>
+*The criteria are described above in the client's section.<br></p></li>
+<li>
+<p>Given I am in the "My Reviews" section, when I filter the reviews by the=
+ selected criteria, then I see the reviews filtered by the criteria I selec=
+ted.<br></p>
+<p>*The criteria are described above in the client's section.<br></p></li>
+<li>
+<p>Given I am in the "My Reviews" section, when I can filter reviews using =
+the search bar,<br>
+then I see the reviews, the search results.<br></p></li>
+</ul>
+<ol start=3D"2">
+<li>
+<p><strong>Respond to a Review</strong><br><strong>User Story:</strong> As =
+a freelancer, I want to respond to reviews, so that I can address any conce=
+rns or express gratitude.</p></li>
+</ol>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p>Given I have at least one review from a client, When I go to the "My Rev=
+iews" section and see a review that I can respond to, Then I see a button o=
+r link "Reply" next to the review.</p></li>
+<li>
+<p>Given I see the "Reply" button on the review I want to respond to, When =
+I click the "Reply" button and start writing my response, Then I can enter =
+text in the response field to express gratitude or clarify details related =
+to the review.</p></li>
+<li>
+<p>Given I have written my response to the review, When I click the "Send" =
+button to confirm the response, Then My response is displayed under the rev=
+iew, and the client can read it.</p></li>
+<li>
+<p>Given I have already sent a response to the review but want to edit it, =
+When I click the "Edit" button next to my response, Then I can edit my resp=
+onse, and after saving, the updated version will be displayed under the rev=
+iew.</p></li>
+<li>
+<p>Given I have sent a response to the review, When The response has been s=
+ent, Then The client receives a notification about my response so they can =
+read it.</p></li>
+</ul>
+<p></p>
+<ol start=3D"3">
+<li>
+<p><strong><span class=3D"inline-comment-marker" data-ref=3D"a24420f6-ac5a-=
+4b71-babc-966eae3252a5">Report a Review</span></strong><br><strong>User Sto=
+ry:</strong> As a client, I want to be able to report a review to notify th=
+e administrator about problematic or false reviews, In order to ensure fair=
+ness and transparency on the platform.</p></li>
+</ol>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p>Given I am on the page with reviews, when I click the "Report" button ne=
+xt to the review, then the system displays a form to submit a complaint, wh=
+ere I can choose the reason for the complaint (e.g., false review, insults,=
+ inappropriate content, etc.).</p></li>
+<li>
+<p>Given I have filled out the form with a description of the issue, when I=
+ click the "Submit Complaint" button, then the complaint is sent for review=
+ to the platform administrator.</p></li>
+<li>
+<p>Given I have submitted a complaint about a review, when the system confi=
+rms the submission of the complaint, then I receive a notification that the=
+ complaint has been accepted and will be reviewed.</p></li>
+<li>
+<p>Given I have submitted a complaint, when the administrator has completed=
+ the review of the review, then I receive a notification with detailed info=
+rmation about the outcome of the review and the actions that were taken.</p=
+></li>
+<li>
+<p>Given I disagree with the administrator's decision on my complaint, when=
+ I select the "Appeal Decision" option, then I can provide additional evide=
+nce or comments for a re-evaluation, and the administration will review the=
+ decision again.</p></li>
+<li>
+<p>Given I have written my response to the review but want to delete it, wh=
+en I click the "Delete" button,<br>
+then A message appears saying "Your comment has been deleted," where the de=
+leted response was.</p></li>
+</ul>
+<p><br></p>
+<p><em><strong><u>Admin Side</u></strong></em></p>
+<ol start=3D"1">
+<li>
+<p><strong>Moderate Reviews</strong><br><strong>User Story: </strong>As an =
+admin, I want to review flagged reviews, so that I can ensure the platform =
+remains fair and professional.</p></li>
+</ol>
+<p><strong>Acceptance Criteria:</strong></p>
+<ul>
+<li>
+<p>Given I have received a complaint about a review, when I check the conte=
+nt of the review and the reason for the complaint, then I make a decision b=
+ased on the platform's rules (e.g., remove the review, leave it, or contact=
+ the user for clarification).</p></li>
+<li>
+<p>Given I have made a decision on the complaint, when the decision is made=
+, then the client or freelancer receives a notification about the outcome o=
+f the complaint review (e.g., the review is removed, the complaint is rejec=
+ted, additional clarification is needed).</p></li>
+<li>
+<p><strong>Given</strong> a review has been flagged, <strong>When</strong> =
+I open the moderation dashboard, <strong>Then</strong> I should see details=
+ about the flagged review, who flagged it, and the reason.</p></li>
+<li>
+<p><strong>Given</strong> I am reviewing flagged content, <strong>When</str=
+ong> I review evidence or context, <strong>Then</strong> I should be able t=
+o approve, reject, or edit the flagged review.</p></li>
+</ul>
+<ol start=3D"2">
+<li>
+<p><strong>Generate Review Analytics</strong></p></li>
+</ol>
+<p>As an admin, I want to analyze reviews across the platform, so that I ca=
+n identify trends and ensure fairness.</p>
+<p><strong><span class=3D"inline-comment-marker" data-ref=3D"fd959c32-2824-=
+47ea-a0fd-0754fa053f0e">Acceptance Criteria:</span></strong></p>
+<ul>
+<li>
+<p><strong>Given</strong> I want to analyze platform reviews, <strong>When<=
+/strong> I access analytics tools, <strong>Then</strong> I should see data =
+like average ratings, common keywords, and top-rated freelancers/clients.</=
+p></li>
+<li>
+<p><strong>Given</strong> I need to share insights, <strong>When</strong> I=
+ generate a report, <strong>Then</strong> I should have an option to export=
+ the data.</p></li>
+</ul>
+<p><em><strong><span data-colorid=3D"kapp6pi7dr"><u>General Features for Al=
+l Users</u></span></strong></em></p>
+<ol start=3D"1">
+<li>
+<p><strong><span data-colorid=3D"ogeuudrehr">Rating Breakdown</span></stron=
+g></p></li>
+</ol>
+<p><span data-colorid=3D"ay2x0ft4rb">As any user, I want to see a breakdown=
+ of ratings (e.g., 5-star, 4-star, etc.), so that I can understand overall =
+feedback at a glance.</span></p>
+<p><strong><span data-colorid=3D"k0ptwv19c5"><span class=3D"inline-comment-=
+marker" data-ref=3D"b63f5da7-3e6d-43d4-b379-8880d7496a0e">Acceptance Criter=
+ia:</span></span></strong></p>
+<ul>
+<li>
+<p><strong><span data-colorid=3D"valqyaxcgk">Given</span></strong><span dat=
+a-colorid=3D"f7tpjvjp59"> I am viewing a freelancer=E2=80=99s profile, </sp=
+an><strong><span data-colorid=3D"t4zvwtva58">When</span></strong><span data=
+-colorid=3D"wl9zojkl01"> I look at their rating breakdown, </span><strong><=
+span data-colorid=3D"e2s3lt5lau">Then</span></strong><span data-colorid=3D"=
+lthv48lnnl"> I should see a bar chart with percentages and the number of re=
+views for each rating.</span></p></li>
+</ul>
+<ol start=3D"2">
+<li>
+<p><strong><span data-colorid=3D"ua2usiqyb8">Review Search</span></strong><=
+/p></li>
+</ol>
+<p><span data-colorid=3D"s8asw061m1">As any user, I want to search through =
+reviews by keywords, so that I can find specific feedback.</span></p>
+<p><strong><span data-colorid=3D"q7p4a7offz"><span class=3D"inline-comment-=
+marker" data-ref=3D"3ad12840-e1ef-4dba-bb7e-f9a1e59e8406">Acceptance Criter=
+ia:</span></span></strong></p>
+<ul>
+<li>
+<p><strong><span data-colorid=3D"vfnhol3a93">Given</span></strong><span dat=
+a-colorid=3D"ertop9gd9r"> I am searching for specific feedback, </span><str=
+ong><span data-colorid=3D"g6ggten4q2">When</span></strong><span data-colori=
+d=3D"sqht4p37xn"> I enter a keyword in the search bar, </span><strong><span=
+ data-colorid=3D"ocglte771k">Then</span></strong><span data-colorid=3D"xhwq=
+hsnc5s"> reviews matching the search query should be highlighted.</span></p=
+></li>
+</ul>
+<ol start=3D"3">
+<li>
+<p><strong><span data-colorid=3D"q1lnw1cmjt"><span class=3D"inline-comment-=
+marker" data-ref=3D"cc190225-7b0a-4d2d-aa30-1d4acee125c6">Sort and Filter R=
+eviews</span></span></strong></p></li>
+</ol>
+<p><span data-colorid=3D"yoqwduujrd">As any user, I want to sort and filter=
+ reviews, so that I can quickly find relevant ones.</span></p>
+<p><strong><span data-colorid=3D"nlo0exukoi">Acceptance Criteria:</span></s=
+trong></p>
+<ul>
+<li>
+<p><strong><span data-colorid=3D"lg7ugijzh7">Given</span></strong><span dat=
+a-colorid=3D"eycjflv2j6"> I am browsing reviews, </span><strong><span data-=
+colorid=3D"pq50yxa2w9">When</span></strong><span data-colorid=3D"ymvorv1i4t=
+"> I apply sorting options, </span><strong><span data-colorid=3D"jrnmrrozwi=
+">Then</span></strong><span data-colorid=3D"ejq2bno7wh"> I should be able t=
+o sort reviews by Newest, Highest Rated, Lowest Rated, or Most Relevant.</s=
+pan></p></li>
+<li>
+<p><strong><span data-colorid=3D"vxria5juxi">Given</span></strong><span dat=
+a-colorid=3D"uauxmob7zz"> I want to refine my review browsing, </span><stro=
+ng><span data-colorid=3D"iillzc0ey1">When</span></strong><span data-colorid=
+=3D"rl2xhpnpf9"> I apply filters, </span><strong><span data-colorid=3D"m5sv=
+402h0w">Then</span></strong><span data-colorid=3D"x34lnjdw5u"> I should be =
+able to filter by rating range, project type, or date range.</span></p></li=
+>
+</ul>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_18_929723038.1749287820139--

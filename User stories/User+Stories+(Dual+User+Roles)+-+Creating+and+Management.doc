@@ -1,0 +1,648 @@
+Message-ID: <1777957954.13.1749287375828@fff7d9a6e7bb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_475720451.1749287375828"
+
+------=_Part_12_475720451.1749287375828
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>User Stories (Dual User Roles) - Creating and Management</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>User Stories (Dual User Roles) - Creating and Management</h1>
+    <div class=3D"Section1">
+        <p>
+<style>[data-colorid=3Dyz19q35mtl]{color:#eae6ff} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dyz19q35mtl]{color:#040019}[data-colorid=3Dy2o6wwj2kv]{c=
+olor:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dy2o6wwj2kv]{colo=
+r:#040019}[data-colorid=3Djrz7hecngj]{color:#eae6ff} html[data-color-mode=
+=3Ddark] [data-colorid=3Djrz7hecngj]{color:#040019}[data-colorid=3Dupxuuuy4=
+qp]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dupxuuuy4qp]=
+{color:#040019}[data-colorid=3Dm0q2c0sfn6]{color:#eae6ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dm0q2c0sfn6]{color:#040019}[data-colorid=3Dwzvjb=
+d9j33]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dwzvjbd9j=
+33]{color:#040019}[data-colorid=3De5tyl3gjat]{color:#eae6ff} html[data-colo=
+r-mode=3Ddark] [data-colorid=3De5tyl3gjat]{color:#040019}[data-colorid=3Dv0=
+7197vkvr]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dv0719=
+7vkvr]{color:#040019}[data-colorid=3Dwakuvh1bsi]{color:#eae6ff} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dwakuvh1bsi]{color:#040019}[data-colorid=
+=3Dmffc3412nr]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3D=
+mffc3412nr]{color:#040019}[data-colorid=3Dmren06glp3]{color:#eae6ff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dmren06glp3]{color:#040019}[data-colo=
+rid=3Dbjov362fg7]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=
+=3Dbjov362fg7]{color:#040019}[data-colorid=3Du71vd3k6zu]{color:#eae6ff} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Du71vd3k6zu]{color:#040019}[data-c=
+olorid=3Dkac8vtprm1]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dkac8vtprm1]{color:#040019}[data-colorid=3Dryh0lsxknu]{color:#eae6ff} =
+html[data-color-mode=3Ddark] [data-colorid=3Dryh0lsxknu]{color:#040019}[dat=
+a-colorid=3Dx7toib96ha]{color:#eae6ff} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dx7toib96ha]{color:#040019}[data-colorid=3Dsfdbpm17gf]{color:#eae6f=
+f} html[data-color-mode=3Ddark] [data-colorid=3Dsfdbpm17gf]{color:#040019}[=
+data-colorid=3Djpwdsvezkm]{color:#eae6ff} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Djpwdsvezkm]{color:#040019}[data-colorid=3Dwd35ml85pu]{color:#ea=
+e6ff} html[data-color-mode=3Ddark] [data-colorid=3Dwd35ml85pu]{color:#04001=
+9}[data-colorid=3Ddr5fsuqebl]{color:#eae6ff} html[data-color-mode=3Ddark] [=
+data-colorid=3Ddr5fsuqebl]{color:#040019}[data-colorid=3Dlysabd1xtq]{color:=
+#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dlysabd1xtq]{color:#04=
+0019}[data-colorid=3Dcoscypivw6]{color:#eae6ff} html[data-color-mode=3Ddark=
+] [data-colorid=3Dcoscypivw6]{color:#040019}[data-colorid=3Daxplh5qrd2]{col=
+or:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Daxplh5qrd2]{color:=
+#040019}[data-colorid=3Dbkix2jrove]{color:#eae6ff} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dbkix2jrove]{color:#040019}[data-colorid=3Dyymuy6q35q]{=
+color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dyymuy6q35q]{col=
+or:#040019}[data-colorid=3Dy3w617cs2p]{color:#eae6ff} html[data-color-mode=
+=3Ddark] [data-colorid=3Dy3w617cs2p]{color:#040019}[data-colorid=3Du7dg9q68=
+gl]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Du7dg9q68gl]=
+{color:#040019}[data-colorid=3Dn6k0x1xl8z]{color:#eae6ff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dn6k0x1xl8z]{color:#040019}[data-colorid=3Dev8f9=
+mu2sg]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dev8f9mu2=
+sg]{color:#040019}[data-colorid=3Dg6olwkx7t4]{color:#eae6ff} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dg6olwkx7t4]{color:#040019}[data-colorid=3Dqa=
+kio734rk]{color:#eae6ff} html[data-color-mode=3Ddark] [data-colorid=3Dqakio=
+734rk]{color:#040019}</style>Since All <strong>Users </strong>have the same=
+ capabilities and can act as both <strong>clients</strong> and <strong>free=
+lancers</strong>, The User Stores I came up with must reflect these dual fu=
+nctionalities.</p>
+<p><strong>NOTE</strong>: Base on the Dual User Roles, I will use Scenario-=
+Oriented ( <strong>GWT</strong>). GWT =3D GIVEN /WHEN / THEN acceptance cri=
+teria through out the stories.</p>
+<h1 id=3D"UserStories(DualUserRoles)-CreatingandManagement-USERCREATINGANDM=
+ANAGEMENT">USER CREATING AND MANAGEMENT</h1>
+<h2 id=3D"UserStories(DualUserRoles)-CreatingandManagement-ServiceCreation"=
+>Service Creation</h2>
+<ol start=3D"1">
+<li>
+<p><strong>As a user</strong>, As account owner, I want to create a service=
+ listing, so that I can offer my skills and attract other clients here or I=
+ can hire the right skill freelancer.<br></p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario =E2=86=92 Modify / Update account</p>
+<ul>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"7e53de58-b4bc-4a37-8d9=
+d-fc4b4cb5ae3c">Given =E2=86=92 I am on the profile update form</span></p><=
+/li>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"130bb6ba-2e76-4a68-9a0=
+8-1bef39ef5f5e">When =E2=86=92 I fill out the required fields eg: Title, De=
+scription, category, pricing, delivery time, etc when I click SAVE.</span><=
+/p></li>
+<li>
+<p>Then =E2=86=92 I should be able <span class=3D"inline-comment-marker" da=
+ta-ref=3D"c595079c-84b4-404b-8c24-68555f744faf">to view my published servic=
+e .</span></p></li>
+</ul>
+</div>
+</div>
+<ol start=3D"2">
+<li>
+<p>As a user, <span class=3D"inline-comment-marker" data-ref=3D"88e253fb-30=
+46-40dd-bfcd-99e07fcc37b2">I want to </span>add my portfolio samples to my =
+service listing, so that I can demonstrate my expertise to potential client=
+s here.<br><strong>Acceptance Criteria </strong></p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario =E2=86=92 update media</p>
+<ul>
+<li>
+<p>Given =E2=86=92 I am on add media form</p></li>
+<li>
+<p>When =E2=86=92 When I click on upload or drag&amp; Drop</p></li>
+<li>
+<p>And =E2=86=92 The media is acceptable media type</p></li>
+<li>
+<p>Given =E2=86=92 I see preview of media</p></li>
+<li>
+<p>When =E2=86=92 media is the same</p></li>
+<li>
+<p>Then =E2=86=92 I can now publish my media files</p></li>
+</ul>
+</div>
+</div>
+<ol start=3D"3">
+<li>
+<p>As <span class=3D"inline-comment-marker" data-ref=3D"31c29605-f076-43f3-=
+a484-16871cc25714">a </span><strong><span class=3D"inline-comment-marker" d=
+ata-ref=3D"31c29605-f076-43f3-a484-16871cc25714">client</span></strong>, I =
+want to add <span class=3D"inline-comment-marker" data-ref=3D"e8c8779d-21e4=
+-445c-8c62-cf98ec1fa129">job/gig/project </span>to my listing, so that I ca=
+n up-sell extras to clients/freelancers.<br><strong>Acceptance Criteria </s=
+trong></p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario =E2=86=92 Create job / project card</p>
+<ul>
+<li>
+<p>Given =E2=86=92 I am on create job/ project / add task form.</p></li>
+<li>
+<p>When =E2=86=92 I add task with title, descriptions, pricing and delivery=
+ estimated time</p></li>
+<li>
+<p>And =E2=86=92 I click on Create</p></li>
+<li>
+<p>Then =E2=86=92 <span class=3D"inline-comment-marker" data-ref=3D"f7e25cd=
+8-3e82-441e-a35f-551454406851"> I should see my job publish.</span></p></li=
+>
+</ul>
+</div>
+</div>
+<ol start=3D"3">
+<li>
+<p>1 As <strong>client</strong>, I want to add more than one job/task to my=
+ listing, so that I can get freelancers to sell their services to me.</p></=
+li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario =E2=86=92 Create additional jobs / tasks card</p>
+<ul>
+<li>
+<p>Given =E2=86=92 I am on create job/ project / add task form.</p></li>
+<li>
+<p>When =E2=86=92 I add task with title, descriptions, pricing and delivery=
+ estimated time, etc.</p></li>
+<li>
+<p>When =E2=86=92 I click on add more,</p></li>
+<li>
+<p>Given =E2=86=92 redirected to create job/ add task form</p></li>
+<li>
+<p>When =E2=86=92 I click create.</p></li>
+<li>
+<p>Then =E2=86=92 I should see all additional tasks published.</p></li>
+</ul>
+</div>
+</div>
+<ol start=3D"4">
+<li>
+<p>As a user, I want to set the visibility of my service or task listings t=
+o public or private, so I can control who can view and request my service.<=
+br><strong>Acceptance Criteria : </strong></p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario =E2=86=92 create public view and private view button</p>
+<ul>
+<li>
+<p>Given =E2=86=92 I am creating a <span class=3D"inline-comment-marker" da=
+ta-ref=3D"abbe6039-d8f3-41f3-8299-1358398191ec">job/ gig / project </span>l=
+isting now</p></li>
+<li>
+<p>When =E2=86=92 I choose visibility options ( public or private)</p></li>
+<li>
+<p>Then =E2=86=92 my service should only be visible base on my selection ( =
+public or private)</p></li>
+</ul>
+</div>
+</div>
+<ol start=3D"5">
+<li>
+<p>As a <strong>Freelancer</strong>, I want to update my profile with my <s=
+trong>skills </strong>, so that i can showcase my skills for jobs and get m=
+y profile attractive to clients.<br>
+Acceptance Criteria.</p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario: improving profile / add skill management section</p>
+<ul>
+<li>
+<p>Given =E2=86=92 I am on my publish profile page</p></li>
+<li>
+<p>When =E2=86=92 I navigate to edit/update profile</p></li>
+<li>
+<p>And =E2=86=92 I add my skills to the skill section</p></li>
+<li>
+<p>When =E2=80=93 &gt; I click on save</p></li>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"77141023-2b00-44dc-95f=
+a-5bf86205b5fa"><span class=3D"inline-comment-marker" data-ref=3D"0db943bb-=
+d964-4965-9ad6-7e0edea54c3f">Then =E2=86=92 I should be able to see my skil=
+ls on my profile</span></span></p></li>
+</ul>
+</div>
+</div>
+<p>5.1 As a <strong>freelancer</strong>, I want to update my profile page w=
+ith my <strong>educational background</strong>, so that I can showcase my p=
+rofessionalism.</p>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario: improving profile/ add educational section.</p>
+<ul>
+<li>
+<p>Given =E2=86=92 I am on my publish profile page</p></li>
+<li>
+<p>When =E2=86=92 I navigate to edit/ add education</p></li>
+<li>
+<p>And =E2=80=93&gt; I enter my educational background information (eg: deg=
+ree, year of completing)</p></li>
+<li>
+<p>When =E2=80=93 &gt; I click on save</p></li>
+<li>
+<p>Then =E2=80=93 &gt; I should be able to see my education on my profile</=
+p></li>
+</ul>
+</div>
+</div>
+<p>5.2 As a <strong>freelancer</strong>, I want to update my profile page w=
+ith my <strong>Certificates</strong>, so that I can showcase my professiona=
+lism.</p>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario: improving profile/ add certificates section.</p>
+<ul>
+<li>
+<p>Given =E2=86=92 I am on my publish profile page</p></li>
+<li>
+<p>When =E2=86=92 I navigate to edit/ add Certificates.</p></li>
+<li>
+<p>Then =E2=80=93 &gt; I should be redirected to media upload.</p></li>
+</ul>
+</div>
+</div>
+<p>5.3 As a <strong>freelancer</strong>, I want to update my profile page w=
+ith my <strong>CV or Other files( cover letter)</strong>, so that I can sho=
+wcase my professionalism.</p>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p>Scenario: improving profile/ add CV or Other files section.</p>
+<ul>
+<li>
+<p>Given =E2=86=92 I am on my publish profile page</p></li>
+<li>
+<p>When =E2=86=92 I navigate to edit/ add CV &amp; other Files .</p></li>
+<li>
+<p>Then =E2=80=93 &gt; I should be redirected to media upload.</p></li>
+</ul>
+</div>
+</div>
+<h2 id=3D"UserStories(DualUserRoles)-CreatingandManagement-BrowsingandSearc=
+hingforservices"><span data-colorid=3D"wakuvh1bsi"><span class=3D"inline-co=
+mment-marker" data-ref=3D"975229df-cf15-4080-8945-2489f88708d3">Browsing an=
+d Searching for services</span></span></h2>
+<ol start=3D"6">
+<li>
+<p><strong><span data-colorid=3D"jpwdsvezkm">As a user</span></strong><span=
+ data-colorid=3D"qakio734rk">, I want to search for services using keywords=
+, so that I can easily find what I need. </span><br><span data-colorid=3D"g=
+6olwkx7t4">criteria.</span></p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p><span data-colorid=3D"mren06glp3">Scenario =E2=86=92 add search input on=
+ user dashboard</span></p>
+<ul>
+<li>
+<p><span data-colorid=3D"yymuy6q35q">Given =E2=86=92 I am on dashboard page=
+ or service listed page </span></p></li>
+<li>
+<p><span data-colorid=3D"n6k0x1xl8z">When =E2=86=92 I enter a keyword in se=
+arch bar,</span></p></li>
+<li>
+<p><span data-colorid=3D"jrz7hecngj">Then =E2=86=92 I should see a respond =
+from the match keyword </span></p></li>
+</ul>
+</div>
+</div>
+<ol start=3D"7">
+<li>
+<p><span data-colorid=3D"yz19q35mtl">As a user, I want to view a detailed s=
+ervice page, so that I can understand the full offering before placing an o=
+rder.</span><br><span data-colorid=3D"ryh0lsxknu">Criteria</span></p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p><span data-colorid=3D"wzvjbd9j33">Scenario =E2=86=92 button to expand se=
+rvice listing card</span></p>
+<ul>
+<li>
+<p><span data-colorid=3D"v07197vkvr">Given =E2=86=92 I am viewing all servi=
+ce card </span></p></li>
+<li>
+<p><span data-colorid=3D"y2o6wwj2kv">When =E2=86=92 I click on a card</span=
+></p></li>
+<li>
+<p><span data-colorid=3D"bjov362fg7">Then =E2=86=92 the card should popup a=
+nd display the service descriptions, portfolio, pricing tiers, etc</span></=
+p></li>
+</ul>
+</div>
+</div>
+<p></p>
+<h2 id=3D"UserStories(DualUserRoles)-CreatingandManagement-OrderingandManag=
+ingServices"><span data-colorid=3D"sfdbpm17gf"><span class=3D"inline-commen=
+t-marker" data-ref=3D"2cbe6836-97e7-45ea-8986-df5a436d94a3">Ordering and Ma=
+naging Services</span></span></h2>
+<ol start=3D"8">
+<li>
+<p><span data-colorid=3D"ev8f9mu2sg">As a user, I want to order a service a=
+nd specify my requirements, so that the freelancer can deliver exactly what=
+ I need. </span><br><span data-colorid=3D"lysabd1xtq">Criteria </span><br><=
+/p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p><span data-colorid=3D"u71vd3k6zu">Scenario =E2=86=92 add handle to hold =
+interested bidders/ sellers / buyers (view button)</span></p>
+<ul>
+<li>
+<p><span data-colorid=3D"coscypivw6">Given =E2=86=92 I am on detail page or=
+ profile page </span></p></li>
+</ul>
+<ul>
+<li>
+<p><span data-colorid=3D"u7dg9q68gl">When =E2=86=92 when i select pricing /=
+ bidders / interest</span></p></li>
+<li>
+<p><span data-colorid=3D"upxuuuy4qp">Then =E2=86=92 I should see list of in=
+terest bidders / sellers / buyers</span></p></li>
+<li>
+<p><span data-colorid=3D"kac8vtprm1">And =E2=86=92 I can contact the seller=
+ / buyer</span></p></li>
+<li>
+<p><span data-colorid=3D"wd35ml85pu">Given =E2=86=92 close service button</=
+span></p></li>
+<li>
+<p><span data-colorid=3D"axplh5qrd2">When =E2=86=92 I found seller or buyer=
+ </span></p></li>
+<li>
+<p><span data-colorid=3D"x7toib96ha">Then =E2=86=92 I swipe service close b=
+utton</span></p></li>
+</ul>
+</div>
+</div>
+<ol start=3D"9">
+<li>
+<p><span data-colorid=3D"y3w617cs2p">As a user, I want to receive notificat=
+ion on my profile for order taken , so that I can track the progress of my =
+service requests.</span><br><span data-colorid=3D"dr5fsuqebl">criteria : </=
+span></p></li>
+</ol>
+<div class=3D"panel" style=3D"background-color: #B3D4FF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #B3D4FF;">
+<p><span data-colorid=3D"e5tyl3gjat">Scenario =E2=86=92 add notice section =
+/ card / task list/</span></p>
+<ul>
+<li>
+<p><span data-colorid=3D"bkix2jrove">Given =E2=86=92 I am on my profile pag=
+e</span></p></li>
+<li>
+<p><span data-colorid=3D"mffc3412nr">When =E2=86=92 I have task ongoing</sp=
+an></p></li>
+<li>
+<p><span data-colorid=3D"m0q2c0sfn6">Then =E2=80=93&gt; I should see the no=
+tice or task listed (eg: order in progress, order completed)</span></p></li=
+>
+</ul>
+</div>
+</div>
+<p></p>
+<h3 id=3D"UserStories(DualUserRoles)-CreatingandManagement-KeyNotes:">Key N=
+otes:</h3>
+<ul>
+<li>
+<p>Users act interchangeably as freelancers and clients depending on their =
+role in a specific transaction.</p></li>
+<li>
+<p>Service creation features cater to their&nbsp;<strong>freelancer role</s=
+trong>, while searching, ordering, and reviewing features support their&nbs=
+p;<strong>client role</strong>.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_12_475720451.1749287375828--
